@@ -22,7 +22,7 @@ background-color: #ffffff;
 top: 0px;
 }
 .navbar-brand{
-float: center;
+float: left;
 margin-right: 0px;
 }
 #haleycontainer {
@@ -51,7 +51,7 @@ height: 50px;
 padding: auto;
 position: center;
 float: center;
-margin-left: 212px;
+margin-left: 300px;
 top: 0px;
 height: 50px;
 }
