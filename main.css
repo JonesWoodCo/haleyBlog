@@ -39,8 +39,7 @@ display: inline;
 height:144px;
 width: 100%;
 border: 0px;
-padding-top: 0px;
-padding-bottom: 5px;
+padding-left: 0px;
 margin: 0px;
 }
 #imagelightbox {
@@ -64,8 +63,7 @@ display: inline;
 height:144px;
 width: 100%;
 border: 0px;
-padding-top: 5px;
-padding-bottom: 5px;
+padding: 0px;
 margin: 0px;
 }
 .rowThreePhotos {
@@ -73,8 +71,7 @@ display: inline;
 height:144px;
 width: 100%;
 border: 0px;
-padding-top: 5px;
-padding-bottom: 5px;
+padding: 0px;
 margin: 0px;
 }
 .col-md-3 {
