@@ -31,13 +31,24 @@ border:0px;
 padding: 0px;
 
 }
+#terd {
+margin: 15px;
+}
 .rowOnePhotos {
 display: inline;
 height:144px;
 width: 100%;
 border: 0px;
-padding: 0px;
+padding-top: 0px;
+padding-bottom: 5px;
 margin: 0px;
+}
+#imagelightbox {
+position: fixed;
+z-index: 9999;
+box-shadow: 0px 10px 60px #000000;
+-ms-touch-action: none;
+touch-action: none;
 }
 .rowOnePhotos > img{
 margin: 16px;
@@ -53,7 +64,8 @@ display: inline;
 height:144px;
 width: 100%;
 border: 0px;
-padding: 0px;
+padding-top: 5px;
+padding-bottom: 5px;
 margin: 0px;
 }
 .rowThreePhotos {
@@ -61,7 +73,8 @@ display: inline;
 height:144px;
 width: 100%;
 border: 0px;
-padding: 0px;
+padding-top: 5px;
+padding-bottom: 5px;
 margin: 0px;
 }
 .col-md-3 {
