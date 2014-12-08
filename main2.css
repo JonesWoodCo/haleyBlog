@@ -107,7 +107,7 @@ color: #808080;
 }
 
 .slide-copy h1 {
-  color: #363636;  
+  color: #000000;  
   
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
@@ -118,7 +118,7 @@ color: #808080;
 }
 
 .slide-copy h2 {
-  color: #b7b7b7;
+  color: #363636;
   
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
@@ -128,7 +128,7 @@ color: #808080;
 }
 
 .slide-copy p {
-  color: #959595;
+  color: #363636;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.15em;
   line-height: 1.75em;
@@ -136,7 +136,7 @@ color: #808080;
   margin-top: 16px;
 }
 .slide-1{
-background-image: url('http://www.wallmu.com/popular/wallstock/mountains-landscapes-winter-season-snow-fresh-new-hd-wallpaper.jpg');
+background-image: url('slideExample.jpg');
 background-size: cover;
 position: absolute;
 top: 0;
@@ -145,7 +145,7 @@ width: 100%;
 height: 100%;
 }
 .slide-2{
-background-image: url('http://www.hdwallpapersos.com/wp-content/uploads/2014/08/mountains-nature-snow-artwork-reid-southen-1920x1080-hd-wallpaper.jpg');
+background-image: url('slideExample2.jpg');
 background-size: cover;
 position: absolute;
 top: 0;
@@ -154,23 +154,13 @@ width: 100%;
 height: 100%;
 }
 .slide-3{
-background-image: url('http://www.hdwallpapers.in/walls/norway_summer-wide.jpg');
+background-image: url('slideExample3.jpg');
 background-size: cover;
 position: absolute;
 top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-}
-
-/* slide text */
-
-h1 {
-
-}
-h2{
-}
-p{
 }
 
 /* Slide feature */
