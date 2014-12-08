@@ -105,6 +105,9 @@ position: inline;
 top: 0px;
 height: 50px;
 }
+.container {
+margin-left: 231px;
+}
 .navbar-nav {
 padding: auto;
 position: center;
@@ -165,4 +168,10 @@ padding-right: 6px;
 }
 .socialMediaNavButtons {
 width: 100%;
+}
+.col-md-6 {
+margin-left: 0px;
+}
+.col-md-3{
+margin-left: 5px;
 }
