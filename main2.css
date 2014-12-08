@@ -109,7 +109,7 @@ color: #808080;
 }
 
 .slide-copy h1 {
-  color: #000000;  
+  color: #ffffff;  
   
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
@@ -117,25 +117,32 @@ color: #808080;
   font-size: 40px;
   margin-top: 105px;
   margin-bottom: 0px;
+  margin-left: 231px;
 }
 
 .slide-copy h2 {
-  color: #363636;
+  color: #ffffff;
+  text-shadow: #ffffff;
   
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   
   font-size: 40px;
   margin: 5px;
+  margin-left: 231px;
 }
 
 .slide-copy p {
-  color: #363636;
+  color: #ffffff;
+  text-shadow: #ffffff;
+  
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.15em;
   line-height: 1.75em;
+  
   margin-bottom: 15px;
   margin-top: 16px;
+  margin-left: 231px;
 }
 .slide-1{
 background-image: url('slideExample.jpg');
