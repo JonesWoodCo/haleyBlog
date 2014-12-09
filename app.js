@@ -1,5 +1,12 @@
 var main = function() {
-    
+
+//function for running the slide show automatically
+setInterval(changePage, 5000);
+	function changePage(){
+	$(".arrow-next").trigger("click");
+
+}
+  
   $('.arrow-next').click(function() {
     var currentSlide = $('.active-slide');
     var nextSlide = currentSlide.next();
@@ -12,8 +19,8 @@ var main = function() {
       nextDot = $('.dot').first();
     }
     
-    currentSlide.fadeOut(600).removeClass('active-slide');
-    nextSlide.fadeIn(600).addClass('active-slide');
+    currentSlide.fadeOut(700).removeClass('active-slide');
+    nextSlide.fadeIn(700).addClass('active-slide');
 
     currentDot.removeClass('active-dot');
     nextDot.addClass('active-dot');
