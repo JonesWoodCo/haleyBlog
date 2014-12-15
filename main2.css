@@ -80,7 +80,7 @@ color: #000000;
 a:hover{
 color: #808080;
 }
-a: active {
+a:active {
 text-decoration: none;
 color: #808080;
 }
@@ -122,7 +122,6 @@ color: #808080;
 
 .slide-copy h2 {
   color: #ffffff;
-  text-shadow: #ffffff;
   
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
@@ -134,7 +133,6 @@ color: #808080;
 
 .slide-copy p {
   color: #ffffff;
-  text-shadow: #ffffff;
   
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.15em;
