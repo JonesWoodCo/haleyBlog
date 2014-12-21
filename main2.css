@@ -226,7 +226,7 @@ height: 100%;
   background-color: #ffffff;
   padding-left: 231px;
   padding-right:231px;
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-family: 'Droid Serif', serif;
 }
 .haleyBlogHome{
@@ -271,6 +271,22 @@ height: 100%;
   padding-right: 231px;
   padding-top: 70px;
   padding-bottom: 70px;
+}
+
+
+.linkedInHome{
+  height: 54px;
+  width: 224px;
+  margin-left: 120px;
+  border: 0px;
+  padding:0px;
+}
+.twitterHome{
+  height: 54px;
+  width: 224px;
+  margin-left: 120px;
+  border: 0px;
+  padding: 0px;
 }
 /*copyright*/
 
