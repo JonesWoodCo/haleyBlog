@@ -129,7 +129,21 @@ top: 0px;
 height: 50px;
 top: 0px;
 }
-
+a:link {
+text-decoration: none;
+color: #000000;
+}
+a:visited {
+text-decoration: none;
+color: #000000;
+}
+a:hover{
+color: #808080;
+}
+a:active {
+text-decoration: none;
+color: #808080;
+}
 .navbar-nav > li > a{
     color: #cccccc;
 }
@@ -145,6 +159,9 @@ padding: 0px;
 position: center;
 text-decoration: none;
 width: 50%;
+}
+.tophLogo:hover{
+  opacity:0.4;
 }
 .socialMediaButtons{
 border: 0px;
@@ -162,4 +179,19 @@ margin-left: 0px;
 }
 .col-md-3{
 margin-left: 5px;
+}
+h1{
+    font-family: 'Droid Serif', serif;
+}
+h3{
+     font-family: 'Droid Serif', serif;
+}
+h5{
+     font-family: 'Droid Serif', serif;
+}
+h6{
+    font-family: 'Droid Serif', serif;
+}
+p{
+     font-family: 'Droid Serif', serif;
 }

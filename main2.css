@@ -338,3 +338,6 @@ position: center;
 text-decoration: none;
 width: 38%;
 }
+.tophLogo:hover{
+  opacity:0.4;
+}
