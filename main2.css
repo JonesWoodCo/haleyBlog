@@ -115,7 +115,7 @@ p{
 .slide-copy h1 {
   color: #ffffff;  
   
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Droid Serif', serif;
   font-weight: 400;
   
   font-size: 40px;
@@ -127,7 +127,7 @@ p{
 .slide-copy h2 {
   color: #ffffff;
   
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Droid Serif', serif;
   font-weight: 400;
   
   font-size: 40px;
@@ -138,7 +138,7 @@ p{
 .slide-copy p {
   color: #ffffff;
   
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Droid Serif', serif;
   font-size: 1.15em;
   line-height: 1.75em;
   
@@ -156,6 +156,24 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+
+.lISlideLink:hover{
+  opacity: 0.4;
+}
+
+.trp{
+  position: absolute;
+  right: 10px;
+  top: 630px;
+  color: #ffffff;
+  opacity: 0.3;
+  
+}
+.trp:hover{
+  opacity: 1.0;
+}
+
+
 .slide-2{
 background-image: url('haleyHoliday1.jpg');
 background-position: center right;
@@ -175,6 +193,23 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+}
+.slide-3>h2{
+  color: #ffffff;
+}
+.twitterSlideLink:hover{
+  opacity: 0.4;
+}
+.trp2{
+  position: absolute;
+  right: 10px;
+  top: 630px;
+  color: #ffffff;
+  opacity: 0.3;
+  
+}
+.trp2:hover{
+  opacity: 1.0;
 }
 
 /* Slide feature */
