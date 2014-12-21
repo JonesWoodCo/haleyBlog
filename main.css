@@ -144,7 +144,9 @@ a: active {
 text-decoration: none;
 color: #808080;
 }
-
+.navbar-nav > li > a{
+    color: #cccccc;
+}
 .copyright {
 clear: both;
 margin-left: auto;
