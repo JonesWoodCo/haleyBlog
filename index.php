@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -21,11 +21,11 @@
 						</div>
 						<div class="navbar-collapse collapse" id="haleycontainer">
 							<ul class="nav navbar-nav" style:"color: #ffffff;">
-								<li><a href="index.html" class="homeLink" >HOME</a></li>
+								<li><a href="index.php" class="homeLink" >HOME</a></li>
 								<li><a>|</a></li>
+								<li><a href="#" class="blogLink">BLOG</a></li>							
+		    						<li><a>|</a></li>							
 								<li><a href="#" class="aboutLink">ABOUT</a></li>							
-		    						<li><a>|</a></li>
-								<li><a href="#" class="blogLink">BLOG</a></li>														
 								<li><a>|</a></li>
 								<li><a href="#" class="contactLink">CONTACT</a></li>						
 							</ul>
@@ -98,24 +98,36 @@
     
     <div class="haleyBlogHome">
       <p style="font-size: 1.8em; text-indent: 60px;"> Blogs</p>
-	
+      
+      
+      
+      
+	<!-- change this all to PHP-->
+        
+        
 	<div class="homeProstitutionBlog">
-	   <a href="sexTrafficking.html"><img class="hideMe1" src="prostitutionHomeHover.png" style="height: 150px; width: 150px;"></a>
+	   <a href="sexTrafficking.html"><img class="hideMe1" src="prostitutionHomeHover.png" style="height: 232px; width: 232px;"></a>
 	</div>
 	
 	<div class="homePPBlog">
-	   <a href="plannedParenthoodArticle.html"><img class="hideMe2" src="ppHomeHover.png" style="height: 150px; width: 150px;"></a>
+	   <a href="plannedParenthoodArticle.html"><img class="hideMe2" src="ppHomeHover.png" style="height: 232px; width: 232px;"></a>
 	</div>
 	
 	<div class="homeAdoptionBlog">
-	  <a href="supermanArticle.html"><img class="hideMe3" src="supermanHomeHover.png" style="height: 150px; width: 150px;"></a>
+	  <a href="supermanArticle.html"><img class="hideMe3" src="supermanHomeHover.png" style="height: 232px; width: 232px;"></a>
 	</div>
+    
+    
+        <!-- change this all to PHP-->
+        
+        
+        
     </div>
     
     
     
     
-    <div class="haleyContactHome" style="width: 100%; height: 550px;"><p style="color: #cccccc; font-size: 1.8em; text-indent: 60px;"> Contact me</p>
+    <div class="haleyContactHome" style="width: 100%; height: 550px;"><p style="font-size: 1.8em; text-indent: 60px;"> Contact me</p>
       <div class="messageMe" style="width: 360px; float: left; height: 411px; display: inline-block;">
 	<!-- Do not change the code! -->
 	<a id="foxyform_embed_link_621050" href="http://www.foxyform.com/">foxyform</a>
@@ -143,6 +155,6 @@
     </div>
     
     
-	<div class="copyright"><p>Copyright Haley Halverson All Rights Reserved. Website design by <a href="http://topherjonesy.github.io/Toaf/">Töph.<img class="tophLogo" style="height: 30px;" src="tophLogo.png"></p></a></div>
+	<div class="copyright"><p>Copyright Haley Halverson All Rights Reserved. Website design by <a href="http://topherjonesy.github.io/Toaf/">T�ph.<img class="tophLogo" style="height: 30px;" src="tophLogo.png"></p></a></div>
   </body>
 </html>
