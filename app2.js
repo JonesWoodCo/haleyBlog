@@ -3,6 +3,8 @@ $(document).ready(function(){
          $('.hideMe1').fadeTo('slow', 1.0);
          $('.hideMe2').fadeTo('slow', 1.0);
          $('.hideMe3').fadeTo('slow', 1.0);
+         $('.lIHomeImg').fadeTo('slow', 0.0);
+         $('.twitterHomeImg').fadeTo('slow', 0.0);
 
 
 // this fades the blog buttons with mouse overs and returns them to full opacity when mouse exits
@@ -25,6 +27,21 @@ $(document).ready(function(){
   });
   $('.hideMe3').mouseleave(function() {
     $(this).fadeTo('slow', 1.0);
+  });
+  
+  /*social network hover*/
+  $('.lIHomeImg').mouseenter(function() {
+    $(this).fadeTo('fast', 1.0);
+  });
+  $('.lIHomeImg').mouseleave(function() {
+    $(this).fadeTo('slow', 0.0);
+  });
+  
+  $('.twitterHomeImg').mouseenter(function() {
+    $(this).fadeTo('fast', 1.0);
+  });
+  $('.twitterHomeImg').mouseleave(function() {
+    $(this).fadeTo('slow', 0.0);
   });
   
   

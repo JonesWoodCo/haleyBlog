@@ -311,6 +311,9 @@ height: 100%;
 
 
 .linkedInHome{
+  background-image: url('linkedInHome.jpg');
+  background-position: center right;
+  background-size: cover;
   height: 54px;
   width: 224px;
   margin-left: 120px;
@@ -318,6 +321,9 @@ height: 100%;
   padding:0px;
 }
 .twitterHome{
+  background-image: url('twitterHomePic.jpg');
+  background-position: center right;
+  background-size: cover;
   height: 54px;
   width: 224px;
   margin-left: 120px;
