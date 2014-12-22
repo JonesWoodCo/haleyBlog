@@ -13,7 +13,7 @@ background-color: #e6e6e6;
   background-color: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid #ddd;
   
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Droid Serif', serif;
   font-weight: 300;
   
   font-size: 17px;
@@ -80,16 +80,20 @@ color: #000000;
 a:hover{
 color: #808080;
 }
-a: active {
+a:active {
 text-decoration: none;
 color: #808080;
 }
+p{
+  margin:0px;
+}
+
 /* Carousel */
 
 .slider {
   position: relative;
   width: 100%;
-  height: 762px;
+  height: 662px;
   border-bottom: 0px
 }
 
@@ -111,7 +115,7 @@ color: #808080;
 .slide-copy h1 {
   color: #ffffff;  
   
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Droid Serif', serif;
   font-weight: 400;
   
   font-size: 40px;
@@ -122,9 +126,8 @@ color: #808080;
 
 .slide-copy h2 {
   color: #ffffff;
-  text-shadow: #ffffff;
   
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Droid Serif', serif;
   font-weight: 400;
   
   font-size: 40px;
@@ -134,9 +137,8 @@ color: #808080;
 
 .slide-copy p {
   color: #ffffff;
-  text-shadow: #ffffff;
   
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Droid Serif', serif;
   font-size: 1.15em;
   line-height: 1.75em;
   
@@ -146,7 +148,7 @@ color: #808080;
 }
 .slide-1{
 background-image: url('TRPHaley1.jpg');
-background-position:center;
+background-position: center right;
 background-size: cover;
 position: absolute;
 top: 0;
@@ -154,9 +156,28 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+
+.lISlideLink:hover{
+  opacity: 0.4;
+}
+
+.trp{
+  position: absolute;
+  right: 10px;
+  top: 630px;
+  color: #ffffff;
+  opacity: 0.2;
+  
+}
+.trp:hover{
+  opacity: 1.0;
+}
+
+
 .slide-2{
-background-image: url('TRPHaley3.jpg');
-background-position: center;
+
+background-image: url('haleyHoliday1.jpg');
+background-position: center right;
 background-size: cover;
 position: absolute;
 top: 0;
@@ -166,13 +187,30 @@ height: 100%;
 }
 .slide-3{
 background-image: url('TRPHaley2.jpg');
-background-position: center;
+background-position: center right;
 background-size: cover;
 position: absolute;
 top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+}
+.slide-3>h2{
+  color: #ffffff;
+}
+.twitterSlideLink:hover{
+  opacity: 0.4;
+}
+.trp2{
+  position: absolute;
+  right: 10px;
+  top: 630px;
+  color: #ffffff;
+  opacity: 0.3;
+  
+}
+.trp2:hover{
+  opacity: 1.0;
 }
 
 /* Slide feature */
@@ -217,6 +255,75 @@ height: 100%;
   color: #363636;
 }
 
+
+/*home page about section*/
+.haleyAboutHome{
+  width: 100%;
+  background-color: #ffffff;
+  padding-left: 231px;
+  padding-right:231px;
+  font-size: 1.4em;
+  font-family: 'Droid Serif', serif;
+}
+.haleyBlogHome{
+  font-size: 1.6em;
+  width: 100%;
+  font-family: 'Droid Serif', serif;
+  background-color: #d7ebff;
+  padding-left: 231px;
+  padding-right: 231px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.homeProstitutionBlog{
+  background-image: url("prostitutionBackground.jpg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.homeAdoptionBlog{
+  background-image: url("adoptionBackground.jpg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.homePPBlog{
+  background-image: url("ppBackground1.jpg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  }
+
+
+.haleyContactHome{
+  font-size: 1.6em;
+  font-family: 'Droid Serif', serif;
+  background-color: #1f1f1f;
+  padding-left: 220px;
+  padding-right: 231px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+
+.linkedInHome{
+  height: 54px;
+  width: 224px;
+  margin-left: 120px;
+  border: 0px;
+  padding:0px;
+}
+.twitterHome{
+  height: 54px;
+  width: 224px;
+  margin-left: 120px;
+  border: 0px;
+  padding: 0px;
+}
 /*copyright*/
 
 .copyright {
@@ -231,4 +338,7 @@ padding: 0px;
 position: center;
 text-decoration: none;
 width: 38%;
+}
+.tophLogo:hover{
+  opacity:0.4;
 }
