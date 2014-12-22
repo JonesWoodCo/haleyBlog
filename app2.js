@@ -46,9 +46,18 @@ $(document).ready(function(){
   
   
   //utilizing the .scrollto function to move to parts of the page when clicking topNav links
-  $('.contactLink').click(function(){
-  $('haleyContactHome').scrollTo();
+  $('.blogLink').click(function(){
+  $('.haleyBlogHome').ScrollTo();
 });
   
+    $('.aboutLink').click(function(){
+  $('.slider-nav').ScrollTo();
+});
+  
+    $('.contactLink').click(function(){
+  $('.haleyContactHome').ScrollTo();
+});
+  
+
   
 });
