@@ -1,3 +1,7 @@
+<?php
+require_once("dbconnect.php");
+?>
+
 <!doctype html>
 <html>
   <head>
@@ -11,9 +15,22 @@
     <link href="main2.css" rel="stylesheet" type="text/css"/>	
     <script src="app.js"></script>
     <script src="app2.js"></script>
+    <script src="app3.js"></script>
     <link rel="icon" type="image/png" href="haleyFavicon.png">
   </head>
   <body>
+    
+    
+    <div class="loginAppear" style=" position: fixed; z-index: 1031; top: 0px; right: 0px; height: 30px; width: 30px; background-color: #1f1f1f;"></div>
+    
+      <div class="login" style=" box-shadow: 0px 1px 20px #000000; z-index: 999; position: fixed; top: 300px; left: 600px; background-color: #1f1f1f; height: 229px; width: 210px; border: 0px; margin: 0px; padding: 30px;">
+	    <p style="color: #ffffff;">ADMIN LOGIN</p>
+	    <form action="auth.php" method="post">
+		  <p style="color: #ffffff;">Username:</p> <input type="text" name="name"><br>
+		 <p style="color: #ffffff;"> Password:</p>  <input type="text" name="password"><br><br>
+		  <input class="loginButton" type="submit" value="Login">
+	    </form>
+      </div>
       			<div class="navbar navbar-inverse navbar-fixed-top">
 					<div class="container haleycontainer">
 						<div class="navbar-header">
@@ -23,9 +40,9 @@
 							<ul class="nav navbar-nav" style:"color: #ffffff;">
 								<li><a href="index.php" class="homeLink" >HOME</a></li>
 								<li><a>|</a></li>
-								<li><a href="#" class="blogLink">BLOG</a></li>							
-		    						<li><a>|</a></li>							
 								<li><a href="#" class="aboutLink">ABOUT</a></li>							
+		    						<li><a>|</a></li>							
+								<li><a href="#" class="blogLink">BLOG</a></li>							
 								<li><a>|</a></li>
 								<li><a href="#" class="contactLink">CONTACT</a></li>						
 							</ul>
@@ -88,9 +105,9 @@
     
     
     
-    
+    <a name="haleyAboutHome"></a>
     <div class="haleyAboutHome">
-      <p style="padding-top: 30px; padding-bottom: 70px; text-indent: 60px;"><b style="font-size: 1.6em">Haley Halverson</b> was born in 1993 in Fremont, Nebraska. Haley was homeschooled from K-12 and currently attends Hillsdale College in Hillsdale, Michigan. During her college career she did coursework at Oxford University, in Oxford, England, interned in Indianapolis, IN, at <a href="http://www.libertyfund.org/">Liberty Fund</a> and in Washington D.C. at the <a href="http://www.heritage.org/">Heritage Foundation</a> and <a href="http://www.frc.org/">Family Research Council</a>. She is also a member of <a href="https://www.kappakappagamma.org/kappa/">Kappa Kappa Gamma</a> sorority. Haley will graduate in spring of 2015 with a double major in Christian Studies and Politics. </p>
+      <p style="padding-top: 30px; padding-bottom: 70px; text-indent: 60px;"><b style="font-size: 1.4em">Haley Halverson</b> was born in 1993 in Fremont, Nebraska. Haley was homeschooled from K-12 and currently attends Hillsdale College in Hillsdale, Michigan. During her college career she did coursework at Oxford University, in Oxford, England, interned in Indianapolis, IN, at <a href="http://www.libertyfund.org/">Liberty Fund</a> and in Washington D.C. at the <a href="http://www.heritage.org/">Heritage Foundation</a> and <a href="http://www.frc.org/">Family Research Council</a>. She is also a member of <a href="https://www.kappakappagamma.org/kappa/">Kappa Kappa Gamma</a> sorority. Haley will graduate in spring of 2015 with a double major in Christian Studies and Politics. </p>
     </div>
     
     
@@ -101,24 +118,30 @@
       
       
       
-      
-	<!-- change this all to PHP-->
+ 
+        <?php
+	$sql = "select * from blogs limit 5";
+	    //echo("SQL: $sql");
+	 $rs = mysql_query($sql);
+	  if($rs) $rsc = mysql_num_rows($rs);
+	  for($i=0; $i < $rsc; $i++){
+	    $photo = mysql_result($rs, $i, "Photo");
+	     $postid = mysql_result($rs, $i, "ID");
+	    $hover = mysql_result($rs, $i, "Hover");
+	    //echo "Column1 is $photo and column 2 is $hover";
+	    echo "<div class='homeProstitutionBlog'>
+			  <div class='blogbackground' style='height: 150px;. width: 150px; background-image: url( $photo);'>
+			      <a href='blog.php?ID=$postid'><img class='hideMe1' src=' $hover ' style='background-image: url( $photo); height: 150px; width: 150px;'></a>
+			  </div>
+		      </div>"	  ;
+	  }
+	?>
         
-        
-	<div class="homeProstitutionBlog">
-	   <a href="sexTrafficking.html"><img class="hideMe1" src="prostitutionHomeHover.png" style="height: 232px; width: 232px;"></a>
-	</div>
 	
-	<div class="homePPBlog">
-	   <a href="plannedParenthoodArticle.html"><img class="hideMe2" src="ppHomeHover.png" style="height: 232px; width: 232px;"></a>
-	</div>
 	
-	<div class="homeAdoptionBlog">
-	  <a href="supermanArticle.html"><img class="hideMe3" src="supermanHomeHover.png" style="height: 232px; width: 232px;"></a>
-	</div>
     
     
-        <!-- change this all to PHP-->
+    
         
         
         
@@ -126,7 +149,7 @@
     
     
     
-    
+    <a name="haleyContactHome"></a>
     <div class="haleyContactHome" style="width: 100%; height: 550px;"><p style="font-size: 1.8em; text-indent: 60px;"> Contact me</p>
       <div class="messageMe" style="width: 360px; float: left; height: 411px; display: inline-block;">
 	<!-- Do not change the code! -->
@@ -155,6 +178,6 @@
     </div>
     
     
-	<div class="copyright"><p>Copyright Haley Halverson All Rights Reserved. Website design by <a href="http://topherjonesy.github.io/Toaf/">Töph.<img class="tophLogo" style="height: 30px;" src="tophLogo.png"></p></a></div>
+	<div class="copyright"><p>Copyright Haley Halverson All Rights Reserved. Website design by <a href="http://topherjonesy.github.io/Toaf/">Mandrake.</p></a></div>
   </body>
 </html>

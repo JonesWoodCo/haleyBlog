@@ -1,16 +1,26 @@
 /* do not edit this*/
 body{
 background-color: #e6e6e6;
+
 }
+/* login*/
+
+
+input[type="submit"] {
+    background-color: #626262;
+    width: 65px;
+    height: 30px; 
+    border: 0;
+}
+
 .content{
 border: 0px;
 margin-left: 0px;
-margin-top: 50px;
+margin-top: 10px;
 margin-right: 0px;
 margin-bottom: 5px;
 padding: 0px;
 width: 100%;
-position: center;
 top: 0px;
 background-color: white;
 }
@@ -43,40 +53,8 @@ border: 0px;
 padding-left: 0px;
 margin: 0px;
 }
-#imagelightbox {
-position: fixed;
-z-index: 9999;
-box-shadow: 0px 10px 60px #000000;
--ms-touch-action: none;
-touch-action: none;
-}
-.rowOnePhotos > img{
-margin: 16px;
-}
-.rowTwoPhotos > img{
-margin: 16px;
-}
-.rowThreePhotos > img{
-margin: 16px;
-}
-.rowTwoPhotos {
-display: inline;
-height:144px;
-width: 100%;
-border: 0px;
-padding: 0px;
-margin: 0px;
-}
-.rowThreePhotos {
-display: inline;
-height:144px;
-width: 100%;
-border: 0px;
-padding: 0px;
-margin: 0px;
-}
 .col-md-3 {
-background-color: #ffffff;
+background-color: #000000;
 top: 0px;
 }
 .navbar-brand{
@@ -98,10 +76,11 @@ top:0px;
 height: 50px;
 width: 100%;
 margin-bottom: 0px;
-box-shadow: 0px 1px 20px #888888;
+box-shadow: 0px 1px 20px #000000;
+background-color: #1f1f1f;
 }
 .nav {
-position: inline;
+
 top: 0px;
 height: 50px;
 }
@@ -109,12 +88,10 @@ height: 50px;
 margin-left: 231px;
 }
 .navbar-nav {
-padding: auto;
-position: center;
-float: center;
 margin-left: 300px;
 top: 0px;
 height: 50px;
+background-color: #1f1f1f;
 }
 .navbar-collapse {
 height: 50px;
@@ -130,18 +107,18 @@ height: 50px;
 top: 0px;
 }
 a:link {
-text-decoration: none;
-color: #000000;
+
+color: #999999;
 }
 a:visited {
-text-decoration: none;
-color: #000000;
+
+color: #999999;
 }
 a:hover{
-color: #808080;
+color:#FF9933;
 }
 a:active {
-text-decoration: none;
+
 color: #808080;
 }
 .navbar-nav > li > a{
@@ -156,10 +133,11 @@ margin-bottom: 30px;
 padding-top: 30px;
 border: 0px;
 padding: 0px;
-position: center;
 text-decoration: none;
 width: 50%;
+font-size: 0.6em;
 }
+
 .tophLogo:hover{
   opacity:0.4;
 }
@@ -174,12 +152,38 @@ padding-right: 6px;
 .socialMediaNavButtons {
 width: 100%;
 }
-.col-md-6 {
+.mainArticleSpace {
 margin-left: 0px;
+padding-left: 70px;
+padding-right: 45px;
+padding-top: 25px;
+padding-bottom: 45px;
+width: 60%;
+background-color: #ffffff;
+float: left;
+font-family: 'Droid Serif', serif;
+top: 0px;
 }
-.col-md-3{
-margin-left: 5px;
+.mainArticleSpace>h1{
+    font-weight: bold;
 }
+.blogSideMenu{
+padding-left: 25px;
+padding-right: 25px;
+padding-bottom: 5px;
+padding-top: 10px;
+margin-right: 231px;
+float: left;
+background-color: #d7ebff;
+max-width: 210px;
+}
+.articles{
+    height: 150px;
+    width: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+
 h1{
     font-family: 'Droid Serif', serif;
 }
@@ -200,4 +204,5 @@ h6{
 }
 p{
      font-family: 'Droid Serif', serif;
+     font-size: 1.2em;
 }

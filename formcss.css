@@ -1,0 +1,39 @@
+body{
+    background-image: url(allthethingsyoulove.jpg);
+    background-attachment: fixed;
+    background-position: bottom left;
+    margin: 0px;
+}
+
+ .htmlhelp{
+    background-color: #1f1f1f;
+    color: #FF0066;
+    width: 30%;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    padding: 20px;
+    float: left;
+ }
+ .formBody{
+    position: absolute;
+    right: 50px;
+    width:55%;
+    float: left;
+    background-color: #FF0066;
+    margin-top: 50px;
+    padding: 25px;
+ }
+ blockquote {
+    font-size: 12px;
+    color: #ffffff;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.example{
+    margin-left: 20px;
+    background-color: #2a2a2a;
+}
