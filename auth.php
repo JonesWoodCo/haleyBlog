@@ -11,11 +11,11 @@ setcookie($cookie_name, $cookie_value, time() + 3601, "/"); // 86400 = 1 day
 
 if(!isset($_COOKIE[$cookie_name])) {
    
-    header("Location: index.php");
+    header("Location: form.php");
      
 } else {
     
-     header("Location: form.php");
+     header("Location: index.php");
      
     }
  }

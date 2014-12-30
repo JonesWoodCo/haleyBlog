@@ -38,15 +38,11 @@ require_once("dbconnect.php");
 		</div>
 		<div class="navbar-collapse collapse" id="haleycontainer">
 		    <ul class="nav navbar-nav" style:"color: #ffffff;">
-			<li><a href="index.php" class="homeLink" >HOME</a></li>
+			<li><a href="index.php" class="homeLink" >HOME page</a></li>
+			<li><a>|</a></li>							
+			<li><a href="blog.php" class="blogLink">BLOG page</a></li>							
 			<li><a>|</a></li>
-			<li><a href="#" class="aboutLink">ABOUT</a></li>							
-		    	<li><a>|</a></li>							
-			<li><a href="#" class="blogLink">BLOG</a></li>							
-			<li><a>|</a></li>
-			<li><a href="#" class="contactLink">CONTACT</a></li>
-                        <li><a>|</a></li>
-			<li><a href="logout.php" class="logoutLink">LOGOUT</a></li>
+			<li><a href="logout.php" class="logoutLink">LOGOUT of editor</a></li>
 		    </ul>
 		</div>
 	    </div>
@@ -160,7 +156,7 @@ require_once("dbconnect.php");
                 
             Published By:
            </br>
-            <input type="text" name="formPublisher" maxlength="50" style="width: 600px;">
+            <input type="text" name="formPublisher" maxlength="200" style="width: 600px;">
                 </br></br>
                     
            Date: </br>

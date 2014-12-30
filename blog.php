@@ -27,7 +27,7 @@ $postid=$_GET['ID'];
 	    <p style="color: #ffffff;">ADMIN LOGIN</p>
 	    <form action="auth.php" method="post">
 		  <p style="color: #ffffff;">Username:</p> <input type="text" name="name">
-		 <p style="color: #ffffff;"> Password:</p>  <input type="text" name="password"><br><br>
+		 <p style="color: #ffffff;"> Password:</p>  <input type="password" name="password"><br><br>
 		  <input class="loginButton" type="submit" value="Login">
 	    </form>
       </div>
