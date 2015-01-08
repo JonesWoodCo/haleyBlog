@@ -150,7 +150,7 @@ require_once("dbconnect.php");
     
     
     <a name="haleyContactHome"></a>
-    <div class="haleyContactHome" style="width: 100%; height: 550px;"><p style="font-size: 1.8em; text-indent: 60px;"> Contact me</p>
+    <div class="haleyContactHome" style="width: 100%; height: 550px;"><p style="font-size: 1.8em; text-indent: 60px; width: 411px;"> Contact me</p>
       <div class="messageMe" style="width: 360px; float: left; height: 411px; display: inline-block;">
 	<!-- Do not change the code! -->
 	<a id="foxyform_embed_link_621050" href="http://www.foxyform.com/"></a>
@@ -166,9 +166,9 @@ require_once("dbconnect.php");
 	</div>
       
       
-      <div class="contactTextSide" style="float: left; height: 468px; width: 500px; margin-left: 100px; border: 0px; padding: 0px;">
+      <div class="contactTextSide" style="float: left; height: 468px; width: 500px; margin-left: 120px; border: 0px; padding: 0px;">
 	<div class="contactText">
-            <p style="padding-top: 30px; padding-bottom: 30px; text-indent: 60px; color: #e6e6e6;">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
+            <p style="text-indent: 60px; color: #e6e6e6;">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
         </div>
   
       </div>
