@@ -220,12 +220,25 @@ padding-top: 30px;
 border: 0px;
 padding: 0px;
 text-decoration: none;
-
+text-align: center;
 font-size: 0.6em;
 }
 
-.tophLogo:hover{
-  opacity:0.4;
+.socialFooterLinks{
+  clear: both;
+   font-family: 'Droid Serif', serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-top: 30px;
+  border: 0px;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
 }
-
-
+.socialFooterLinks > li {
+    margin: 20px;
+    padding: 0px;
+    border: 0px;
+}
