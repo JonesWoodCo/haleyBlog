@@ -1,80 +1,92 @@
-/* General */
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ ~~~~~~~~~~~~~   This document is used for  index.php only  ~~~~~~~~~~~~
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////////////////////////////////////////////
+ ////////////////////////////  main body  ///////////////////////////////////
+ /////////////////////////////////////////////////////////////////////////////////*/
 
 .container {
-  width: 960px;
+    width: 960px;
 }
 body {
-background-color: #e6e6e6;
-}
-
-/* Header */
-
-.header {
-  background-color: rgba(255, 255, 255, 0.95);
-  border-bottom: 1px solid #ddd;
-  
-  font-family: 'Droid Serif', serif;
-  font-weight: 300;
-  
-  font-size: 17px;
-  padding: 15px;
+  background-color: #e6e6e6;
 }
 
 
-/* Menu */ 
+
+
+/*////////////////////////////////////////////////////////////////////////////
+ //////////////    navbar stuff  && logo stuff   ////////////////
+ ///////////////////////////////////////////////////////////////////////////*/
 
 #haleycontainer {
-height: 50px;
-top: 0px;
-position: absolute;
+  height: 50px;
+  top: 0px;
+  position: absolute;
 }
 .navbar-brand{
-float: left;
-margin-right: 0px;
+  float: left;
+  margin-right: 0px;
 }
 .logo {
-top:0px;
-padding: 0px;
+  top:0px;
+  padding: 0px;
 }
 
 .navbar-fixed-top{
-top:0px;
-height: 50px;
-width: 100%;
-margin-bottom: 0px;
-box-shadow: 0px 1px 20px #1f1f1f;
+  top:0px;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 0px;
+  box-shadow: 0px 1px 20px #1f1f1f;
 }
 .nav {
-position: inline;
-top: 0px;
-height: 50px;
+  position: inline;
+  top: 0px;
+  height: 50px;
 }
 .navbar-nav {
-padding: auto;
-position: center;
-float: center;
-margin-left: 300px;
-top: 0px;
-height: 50px;
+  padding: auto;
+  position: center;
+  float: center;
+  margin-left: 300px;
+  top: 0px;
+  height: 50px;
 }
 .navbar-collapse {
-height: 50px;
-top:0px;
+  height: 50px;
+  top:0px;
 }
 ul {
-height: 50px;
-top: 0px;
+  height: 50px;
+  top: 0px;
 }
 .collapse {
-height: 50px;
-top: 0px;
+  height: 50px;
+  top: 0px;
 }
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////
+ //////////////////////////////   text stuff   ////////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////*/
 
 p{
   margin:0px;
 }
 
-/* Carousel */
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////
+ //////////////////////////////   carousel   ////////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////*/
 
 .slider {
   position: relative;
@@ -95,7 +107,7 @@ p{
 }
 
 .active-slide {
-    display: block;
+  display: block;
 }
 
 .slide-copy h1 {
@@ -133,14 +145,14 @@ p{
   margin-left: 231px;
 }
 .slide-1{
-background-image: url('TRPHaley1.jpg');
-background-position: center right;
-background-size: cover;
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+  background-image: url('TRPHaley1.jpg');
+  background-position: center right;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .lISlideLink:hover{
@@ -161,28 +173,29 @@ height: 100%;
 
 
 .slide-2{
-background-image: url('haleyHoliday1.jpg');
-background-position: center right;
-background-size: cover;
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+  background-image: url('haleyHoliday1.jpg');
+  background-position: center right;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .slide-3{
-background-image: url('TRPHaley2.jpg');
-background-position: center right;
-background-size: cover;
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+  background-image: url('TRPHaley2.jpg');
+  background-position: center right;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .slide-3>h2{
   color: #ffffff;
 }
+
 .twitterSlideLink:hover{
   opacity: 0.4;
 }
@@ -198,7 +211,12 @@ height: 100%;
   opacity: 1.0;
 }
 
-/* Slide feature */
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////
+ /////////////////////////  slider navigation   /////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////*/
 
 .slider-nav {
   text-align: center;
@@ -241,7 +259,12 @@ height: 100%;
 }
 
 
-/*home page about section*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////
+ /////////////////////////   about section   /////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////*/
+
 .haleyAboutHome{
   width: 100%;
   background-color: #ffffff;
@@ -250,6 +273,14 @@ height: 100%;
   font-size: 1.2em;
   font-family: 'Droid Serif', serif;
 }
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////
+ ///////////////////////////   blog section   //////////////////////////////////
+ ////////////////////////////////////////////////////////////////////////////////////*/
+ 
 .haleyBlogHome{
   font-size: 1.6em;
   width: 100%;
@@ -262,27 +293,18 @@ height: 100%;
 }
 
 .homeProstitutionBlog{
- /* background-image: url("prostitutionBackground.jpg");*/
   display: inline-block;
   background-repeat: no-repeat;
   margin-right: 15px;
   margin-bottom: 15px;
 }
-.homeAdoptionBlog{
-  background-image: url("adoptionBackground.jpg");
-  display: inline-block;
-  background-repeat: no-repeat;
-  margin-right: 15px;
-  margin-bottom: 15px;
-}
-.homePPBlog{
-  background-image: url("ppBackground1.jpg");
-  display: inline-block;
-  background-repeat: no-repeat;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  }
 
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////
+ /////////////////////////   contact section   /////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////*/
 
 .haleyContactHome{
   font-size: 1.6em;
@@ -294,7 +316,6 @@ height: 100%;
   padding-top: 70px;
   padding-bottom: 70px;
 }
-
 
 .linkedInHome{
   background-image: url('linkedInHome.jpg');
@@ -316,18 +337,41 @@ height: 100%;
   border: 0px;
   padding: 0px;
 }
-/*copyright*/
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////
+ /////////////////////////////////////////     footer     ////////////////////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .copyright {
-clear: both;
-margin-left: auto;
-margin-right: auto;
-margin-top: 30px;
-margin-bottom: 30px;
-padding-top: 30px;
-border: 0px;
-padding: 0px;
-position: center;
-text-decoration: none;
-width: 38%;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  border: 0px;
+  padding: 0px;
+  position: center;
+  text-decoration: none;
+  width: 38%;
+}
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ ///////////////////////////////////////   possible throw away stuff   //////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.header {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid #ddd;
+  
+  font-family: 'Droid Serif', serif;
+  font-weight: 300;
+  
+  font-size: 17px;
+  padding: 15px;
 }

@@ -1,10 +1,19 @@
-/* do not edit this*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ ~~~~~~~~~~~~~~~~   This stylesheet is used for both index.php and blog.php.  ~~~~~~~~~~~~~
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////////////////
+ ////////////////////////////  main body  ///////////////////////////////////
+ /////////////////////////////////////////////////////////////////////////////////*/
 body{
 background-color: #e6e6e6;
 
 }
-/* login*/
 
+
+/*//////////////////////////////////////////////////////////////////////////////////
+ /////////////////////////////  login stuff   //////////////////////////////////
+ /////////////////////////////////////////////////////////////////////////////////*/
 
 input[type="submit"] {
     background-color: #626262;
@@ -13,6 +22,11 @@ input[type="submit"] {
     border: 0;
 }
 
+
+
+/*////////////////////////////////////////////////////////////////////////////////
+ //////////////////  blog.php - content section  //////////////////
+ ///////////////////////////////////////////////////////////////////////////////*/
 .content{
 border: 0px;
 margin-left: 0px;
@@ -24,134 +38,8 @@ width: 100%;
 top: 0px;
 background-color: white;
 }
-.col-md-6 {
-background-color: #ffffff;
-top: 0px;
-}
-.col-md-10 {
-background-color: #ffffff;
-top: 0px;
-}
-.photoPagePics {
-margin-top: 10px;
-margin-left: 10px;
-margin-bottom: 10px;
-margin-right: 10px;
-width: 144px;
-border:0px;
-padding: 0px;
 
-}
-#terd {
-margin: 15px;
-}
-.rowOnePhotos {
-display: inline;
-height:144px;
-width: 100%;
-border: 0px;
-padding-left: 0px;
-margin: 0px;
-}
-.col-md-3 {
-background-color: #000000;
-top: 0px;
-}
-.navbar-brand{
-float: left;
-margin-right: 0px;
-}
-#haleycontainer {
-height: 50px;
-top: 0px;
-position: absolute;
-}
-.logo {
-top:0px;
-padding: 0px;
-}
 
-.navbar-fixed-top{
-top:0px;
-height: 50px;
-width: 100%;
-margin-bottom: 0px;
-box-shadow: 0px 1px 20px #000000;
-background-color: #1f1f1f;
-}
-.nav {
-
-top: 0px;
-height: 50px;
-}
-.container {
-margin-left: 231px;
-}
-.navbar-nav {
-margin-left: 300px;
-top: 0px;
-height: 50px;
-background-color: #1f1f1f;
-}
-.navbar-collapse {
-height: 50px;
-top:0px;
-}
-ul {
-height: 50px;
-top: 0px;
-}
-
-.collapse {
-height: 50px;
-top: 0px;
-}
-a:link {
-
-color: #999999;
-}
-a:visited {
-
-color: #999999;
-}
-a:hover{
-color:#FF9933;
-}
-a:active {
-
-color: #808080;
-}
-.navbar-nav > li > a{
-    color: #cccccc;
-}
-.copyright {
-clear: both;
-margin-left: auto;
-margin-right: auto;
-margin-top: 30px;
-margin-bottom: 30px;
-padding-top: 30px;
-border: 0px;
-padding: 0px;
-text-decoration: none;
-width: 50%;
-font-size: 0.6em;
-}
-
-.tophLogo:hover{
-  opacity:0.4;
-}
-.socialMediaButtons{
-border: 0px;
-margin: 0px;
-padding-top: 0px;
-padding-bottom: 0px;
-padding-left: 6px;
-padding-right: 6px;
-}
-.socialMediaNavButtons {
-width: 100%;
-}
 .mainArticleSpace {
 margin-left: 0px;
 padding-left: 70px;
@@ -184,9 +72,94 @@ max-width: 210px;
     padding: 0px;
 }
 
+
+
+/*////////////////////////////////////////////////////////////////////////////
+ //////////////    navbar stuff  && logo stuff   ////////////////
+ ///////////////////////////////////////////////////////////////////////////*/
+.navbar-brand{
+float: left;
+margin-right: 0px;
+}
+
+#haleycontainer {
+height: 50px;
+top: 0px;
+position: absolute;
+}
+
+.logo {
+top:0px;
+padding: 0px;
+}
+
+.navbar-fixed-top{
+top:0px;
+height: 50px;
+width: 100%;
+margin-bottom: 0px;
+box-shadow: 0px 1px 20px #000000;
+background-color: #1f1f1f;
+}
+
+.nav {
+top: 0px;
+height: 50px;
+}
+
+.container {
+margin-left: 231px;
+}
+
+.navbar-nav {
+margin-left: 300px;
+top: 0px;
+height: 50px;
+background-color: #1f1f1f;
+}
+
+.navbar-collapse {
+height: 50px;
+top:0px;
+}
+
+ul {
+height: 50px;
+top: 0px;
+}
+
+.collapse {
+height: 50px;
+top: 0px;
+}
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////
+ //////////////////////////////   text stuff   ////////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////*/
+ 
+a:link {
+color: #999999;
+}
+
+a:visited {
+color: #999999;
+}
+
+a:hover{
+color:#FF9933;
+}
+
+a:active {
+color: #808080;
+}
+
 h1{
     font-family: 'Droid Serif', serif;
 }
+
 h3{
      font-family: 'Droid Serif', serif;
 }
@@ -196,13 +169,105 @@ h4{
     margin-left: 231px;
     color: #ffffff;
 }
+
 h5{
      font-family: 'Droid Serif', serif;
 }
+
 h6{
     font-family: 'Droid Serif', serif;
 }
+
 p{
      font-family: 'Droid Serif', serif;
      font-size: 1.2em;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////
+ /////////////////////////////////////////     footer     ////////////////////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.copyright {
+clear: both;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+padding-top: 30px;
+border: 0px;
+padding: 0px;
+text-decoration: none;
+width: 50%;
+font-size: 0.6em;
+}
+
+.tophLogo:hover{
+  opacity:0.4;
+}
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ ///////////////////////////////////////   possible throw away stuff   //////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+ 
+.col-md-6 {
+background-color: #ffffff;
+top: 0px;
+}
+
+
+.socialMediaButtons{
+border: 0px;
+margin: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 6px;
+padding-right: 6px;
+}
+
+.socialMediaNavButtons {
+width: 100%;
+}
+
+.col-md-10 {
+background-color: #ffffff;
+top: 0px;
+}
+
+
+.col-md-3 {
+background-color: #000000;
+top: 0px;
+}
+
+.photoPagePics {
+margin-top: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+width: 144px;
+border:0px;
+padding: 0px;
+}
+
+#terd {
+margin: 15px;
+}
+
+
+.rowOnePhotos {
+display: inline;
+height:144px;
+width: 100%;
+border: 0px;
+padding-left: 0px;
+margin: 0px;
+}
+
+.navbar-nav > li > a{
+    color: #cccccc;
 }
