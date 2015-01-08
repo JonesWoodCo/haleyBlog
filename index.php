@@ -166,7 +166,7 @@ require_once("dbconnect.php");
 	</div>
       
       
-      <div class="contactTextSide" style="float: left; height: 500px; width: 480px; margin-left: 120px; border: 0px; padding: 0px;">
+      <div class="contactTextSide" style="float: left; height: 500px; width: 480px; margin-left: 100px; border: 0px; padding: 0px;">
 	<div class="contactText">
             <p style="text-indent: 60px; color: #e6e6e6;">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
         </div>
