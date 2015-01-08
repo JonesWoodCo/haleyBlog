@@ -21,9 +21,9 @@ require_once("dbconnect.php");
   <body>
     
     
-    <div class="loginAppear" style=" position: fixed; z-index: 1031; top: 0px; right: 0px; height: 30px; width: 30px; background-color: #1f1f1f;"></div>
+    <div class="loginAppear"></div>
     
-      <div class="login" style=" box-shadow: 0px 1px 20px #000000; z-index: 999; position: fixed; top: 300px; left: 600px; background-color: #1f1f1f; height: 229px; width: 230px; border: 0px; margin: 0px; padding: 30px;">
+      <div class="login">
 	    <p style="color: #ffffff;">ADMIN LOGIN</p>
 	    <form action="auth.php" method="post">
 		  <p style="color: #ffffff;">Username:</p> <input type="text" name="name"><br>
@@ -84,7 +84,7 @@ require_once("dbconnect.php");
             <div class="slide-copy col-xs-5 slide-3">
               
               <h2 style="margin-top: 210px;"><strong>Follow </strong>me on</h2>
-	      <h2><a class="twitterSlideLink" href="https://www.linkedin.com/in/haleyhalverson"><img src="slide3Twitter.png"></a>.</h2>
+	      <h2><a class="twitterSlideLink" href="https://twitter.com/_hhalverson"><img src="slide3Twitter.png"></a>.</h2>
               
 	      
 	      <div class="trp">photo courtesy of:<a class="twitterSlideLink" href="https://www.facebook.com/TR.fotowerks"><img src="tRPhotoLogo.png"></a></div>
@@ -168,10 +168,10 @@ require_once("dbconnect.php");
       
       <div class="socialMediaSide" style="float: left; height: 411px; width: 400px; margin: 0px; border: 0px; padding: 0px; display: inline-block;">
 	<div class="linkedInHome">
-	  <a href="#"><img class="lIHomeImg" src="linkedInHomeHover.jpg"></a>
+	  <a href="https://www.linkedin.com/in/haleyhalverson"><img class="lIHomeImg" src="linkedInHomeHover.jpg"></a>
 	</div>
 	<div class="twitterHome">
-	  <a href="#"><img class="twitterHomeImg" src="twitterHomePicHover.jpg"></a>
+	  <a href="https://twitter.com/_hhalverson"><img class="twitterHomeImg" src="twitterHomePicHover.jpg"></a>
 	</div>
   
       </div>

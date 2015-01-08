@@ -22,8 +22,9 @@ $postid=$_GET['ID'];
 	</head>
 	<body>		 
 		
-		<div class="loginAppear" style=" position: fixed; z-index: 1031; top: 0px; right: 0px; height: 30px; width: 30px; background-color: #1f1f1f;"></div>
-      <div class="login" style=" box-shadow: 0px 1px 20px #000000; z-index: 999; position: fixed; top: 300px; left: 600px; background-color: #1f1f1f; height: 240px; width: 230px; border: 0px; margin: 0px; padding: 30px;">
+		<div class="loginAppear"></div>
+                
+      <div class="login">
 	    <p style="color: #ffffff;">ADMIN LOGIN</p>
 	    <form action="auth.php" method="post">
 		  <p style="color: #ffffff;">Username:</p> <input type="text" name="name">
