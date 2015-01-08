@@ -166,13 +166,10 @@ require_once("dbconnect.php");
 	</div>
       
       
-      <div class="socialMediaSide" style="float: left; height: 411px; width: 400px; margin: 0px; border: 0px; padding: 0px; display: inline-block;">
-	<div class="linkedInHome">
-	  <a href="https://www.linkedin.com/in/haleyhalverson"><img class="lIHomeImg" src="linkedInHomeHover.jpg"></a>
-	</div>
-	<div class="twitterHome">
-	  <a href="https://twitter.com/_hhalverson"><img class="twitterHomeImg" src="twitterHomePicHover.jpg"></a>
-	</div>
+      <div class="contactTextSide" style="float: left; height: 468px; margin-left: 30px; border: 0px; padding: 0px;">
+	<div class="contactText">
+            <p style="padding-top: 30px; padding-bottom: 30px; text-indent: 60px; color: #e6e6e6;">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
+        </div>
   
       </div>
     </div>
