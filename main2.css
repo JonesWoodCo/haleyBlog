@@ -42,16 +42,12 @@ body {
   margin-bottom: 0px;
   box-shadow: 0px 1px 20px #1f1f1f;
 }
-.nav {
-  position: inline;  
+.nav { 
   top: 0px;
   height: 50px;
 }
 .navbar-nav {
-  padding: auto;
-  position: center;
-  float: center;
-  margin-left: 300px;
+  margin-left: 725px;
   top: 0px;
   height: 50px;
 }
