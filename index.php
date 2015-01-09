@@ -142,9 +142,10 @@ require_once("dbconnect.php");
     <div class="haleyContactHome">
             <div class="contactTextSide" ">    
                 <p style="font-size: 1.8em; text-indent: 60px;"> Contact Me</p>
-                <!--<div class="contactText">-->
-                <p class="contactParagraph">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
-                <!--</div>-->
+                
+                <p class="contactParagraph">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!<br /></p>
+                <a href="#"><img class="messageDrop" src="messageDrop.png"></a>
+                
             </div>
         </div>
             <div class="messageMe">
