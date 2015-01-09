@@ -249,3 +249,9 @@ font-size: 0.6em;
     display: inline;
     text-align: center;
 }
+.footerTwitter:hover{
+    opacity: 0.4;
+}
+.footerLinkedIn:hover{
+    opacity: 0.4;
+}
