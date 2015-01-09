@@ -322,7 +322,7 @@ p{
 /*the div housing the paragraph and title */
 .contactTextSide{
   display: inline-block;
-  width: 500px;
+ /* width: 500px;*/
   border: 0px;
   padding: 0px;
   margin-right: auto;
