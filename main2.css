@@ -349,7 +349,10 @@ p{
 }
 /*this is the button to drop the .messageMe div*/
 .messageDrop{
-  text-align: center;
+  margin: 15px;
+}
+.messageDrop:hover{
+  opacity: 0.4;
 }
 /*this is the message form*/
 .messageMe{ 
