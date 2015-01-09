@@ -324,7 +324,7 @@ p{
 .contactTextSide{
   display: inline-block;
   /*float: left;*/
-  height: 468px;
+  /*height: 468px;*/
   width: 500px;
   /*margin-left: 80px;*/
   border: 0px;
@@ -335,6 +335,7 @@ p{
 .contactTitle{
   font-size: 1.8em;
   text-indent: 60px;
+  margin-bottom: 30px;
 }
 
 .contactParagraph{
