@@ -114,7 +114,7 @@ require_once("dbconnect.php");
     
     
     <div class="haleyBlogHome">
-      <p style="font-size: 1.8em;"> Blogs</p>
+      <p><b style="font-size: 1.4em">Blogs</b></p>
       
         <?php
 	$sql = "select * from blogs limit 5";
@@ -141,7 +141,7 @@ require_once("dbconnect.php");
     <a name="haleyContactHome"></a>
     <div class="haleyContactHome">
             <div class="contactTextSide" ">    
-                <p style="font-size: 1.8em;"> Contact Me</p>
+                <p><b style="font-size: 1.4em">Contact Me</b></p>
                 
                 <p class="contactParagraph">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!<br /></p>
                 <a><img class="messageDrop" src="messageDrop.png"></a>

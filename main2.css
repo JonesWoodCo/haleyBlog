@@ -334,7 +334,6 @@ p{
 /* "Contact Me" */
 .contactTitle{
   float: left;
-  font-size: 1.8em;
   margin-bottom: 20px;
   width: 100%;  
 }
@@ -342,7 +341,7 @@ p{
 .contactParagraph{
   padding-bottom: 0px;
   color: #e6e6e6;
-  font-size: 1.4em;
+ /* font-size: 1.4em;*/
   padding-bottom: 0px;
   width: 100%;
 }
