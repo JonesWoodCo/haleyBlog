@@ -328,13 +328,15 @@ p{
   margin-right: auto;
   margin-bottom:  auto;
   text-align: center;
+  font-family: 'Droid Serif', serif;
 }
 
 /* "Contact Me" */
 .contactTitle{
   float: left;
   margin-bottom: 20px;
-  width: 100%;  
+  width: 100%;
+  font-family: 'Droid Serif', serif;
 }
 
 .contactParagraph{
@@ -343,6 +345,7 @@ p{
  /* font-size: 1.4em;*/
   padding-bottom: 0px;
   width: 100%;
+  font-family: 'Droid Serif', serif;
 }
 /*this is the button to drop the .messageMe div*/
 .messageDrop{
