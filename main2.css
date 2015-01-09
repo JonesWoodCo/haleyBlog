@@ -316,10 +316,11 @@ p{
   padding-top: 70px;
   padding-bottom: 70px;
   width: 100%;
-  height: 550px;
+  /*height: 550px;*/
   display: inline-block;
   text-align: center;
 }
+/*the div housing the paragraph and title */
 .contactTextSide{
   display: inline-block;
   /*float: left;*/
@@ -329,14 +330,27 @@ p{
   border: 0px;
   padding: 0px;
 }
-.messageMe{
+
+/* "Contact Me" */
+.contactTitle{
+  font-size: 1.8em;
+  text-indent: 60px;
+}
+
+.contactParagraph{
+  padding-bottom: 30px;
+  text-indent: 60px;
+  color: #e6e6e6;"
+}
+
+/*this is the message form*/
+.messageMe{ 
   display: inline-block;
   width: 360px;
   /*float: left;*/
   height: 411px;
   display: inline-block;
 }
-
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////
  /////////////////////////////////////////     footer     ////////////////////////////////////////////////

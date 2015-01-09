@@ -152,15 +152,15 @@ require_once("dbconnect.php");
     <a name="haleyContactHome"></a>
     <div class="haleyContactHome">
         
-            <p style="font-size: 1.8em; text-indent: 60px;"> Contact me</p>
+            
             
             
             
             
             <div class="contactTextSide" ">
-        
+        <p  class="contactTitle"> Contact me</p>
 	<div class="contactText">
-            <p style="padding-bottom: 30px; text-indent: 60px; color: #e6e6e6;">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
+            <p class="contactParagraph">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
         </div>
 
       </div>
