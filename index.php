@@ -34,7 +34,7 @@ require_once("dbconnect.php");
       			<div class="navbar navbar-inverse navbar-fixed-top">
 					<div class="container haleycontainer">
 						<div class="navbar-header">
-							<div class="navbar-brand logo"><img src="brandNameNavBar.jpg"></div>
+							<div class="navbar-brand logo"><img src="brandNameNavBar.png"></div>
 						</div>
 						<div class="navbar-collapse collapse" id="haleycontainer">
 							<ul class="nav navbar-nav" style:"color: #ffffff;">
