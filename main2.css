@@ -334,14 +334,12 @@ p{
 .contactTitle{
   float: left;
   font-size: 1.8em;
-  text-indent: 60px;
   margin-bottom: 20px;
   width: 100%;  
 }
 
 .contactParagraph{
   padding-bottom: 0px;
-  text-indent: 60px;
   color: #e6e6e6;
   font-size: 1.4em;
   padding-bottom: 0px;
