@@ -7,10 +7,9 @@ $(document).ready(function(){
     $('.login').toggle();
   });
   $('.messageDrop').click(function() {
-    $('.messageMe').toggle( "slow", function() {
+    //$('.messageMe').slideDown( "slow", function() {
     // Animation complete.
-         
-  });
-  //$('.messageMe').toggle();
+  //});
+  $('.messageMe').toggle();
   });
 });
