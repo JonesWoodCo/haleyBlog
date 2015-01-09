@@ -115,7 +115,11 @@ $postid=$_GET['ID'];
 				
 				</div>
 			</div>		
-			
+			<div class="socialFooterLinks"><ul class="footerSocial" >
+								<li><a href="https://twitter.com/_hhalverson" class="footerTwitter" ><img src="twitterFooter.png"></a></li>
+								<li>|</li>
+								<li><a href="https://www.linkedin.com/in/haleyhalverson" class="footerLinkedIn"><img src="linkedInFooter.png"></a></li>												
+							</ul></div>
 		<div class="copyright"><p>Copyright Haley Halverson All Rights Reserved. Website design by <a href="http://topherjonesy.github.io/Toaf/">Mandrake.</a></p></div>
 	</body>
 </html>

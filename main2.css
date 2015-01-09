@@ -311,13 +311,28 @@ p{
   font-family: 'Droid Serif', serif;
   color: #e6e6e6;
   background-color: #1f1f1f;
-  padding-left: 220px;
+  padding-left: 231px;
   padding-right: 231px;
   padding-top: 70px;
   padding-bottom: 70px;
+  width: 100%;
+  height: 550px;
 }
-
-
+.contactTextSide{
+  display: inline-block;
+  float: left;
+  height: 468px;
+  width: 500px;
+  margin-left: 80px;
+  border: 0px;
+  padding: 0px;
+}
+.messageMe{
+  width: 360px;
+  float: left;
+  height: 411px;
+  display: inline-block;
+}
 
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////
