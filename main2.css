@@ -322,7 +322,7 @@ p{
 /*the div housing the paragraph and title */
 .contactTextSide{
   display: inline-block;
-  width: 400px;
+  width: 500px;
   border: 0px;
   padding: 0px;
   margin-right: auto;
@@ -331,14 +331,11 @@ p{
 
 /* "Contact Me" */
 .contactTitle{
+  float: left;
   font-size: 1.8em;
   text-indent: 60px;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  text-align: center;
-  
+  width: 100%;  
 }
 
 .contactParagraph{
@@ -347,13 +344,14 @@ p{
   color: #e6e6e6;
   font-size: 1.2em;
   padding-bottom: 0px;
+  width: 100%;
 }
 
 /*this is the message form*/
 .messageMe{ 
   display: inline-block;
-  width: 40%;
-  height: 350px;
+  /*width: 40%;*/
+  /*height: 350px;*/
   display: inline-block;
   margin-left: auto;
 }

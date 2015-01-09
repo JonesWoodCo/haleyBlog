@@ -146,7 +146,7 @@ require_once("dbconnect.php");
                 <p class="contactParagraph">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
                 <!--</div>-->
             </div>
-            <!--<div class="messageMe">
+            <div class="messageMe">
                  
                 <a id="foxyform_embed_link_621050" href="http://www.foxyform.com/"></a>
                 <script type="text/javascript">
@@ -158,7 +158,7 @@ require_once("dbconnect.php");
                     }(document, "script"));
                 </script>
                 
-            </div> -->
+            </div>
     </div>
     
         <div class="socialFooterLinks"><ul class="footerSocial" >
