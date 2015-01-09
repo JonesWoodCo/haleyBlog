@@ -154,6 +154,20 @@ require_once("dbconnect.php");
         
             <p style="font-size: 1.8em; text-indent: 60px;"> Contact me</p>
             
+            
+            
+            
+            <div class="contactTextSide" ">
+        
+	<div class="contactText">
+            <p style="padding-bottom: 30px; text-indent: 60px; color: #e6e6e6;">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
+        </div>
+
+      </div>
+            
+            
+            
+            
             <div class="messageMe">
                 <!-- Do not change the code! -->
                 <a id="foxyform_embed_link_621050" href="http://www.foxyform.com/"></a>
@@ -169,13 +183,7 @@ require_once("dbconnect.php");
             </div>
       
       
-      <div class="contactTextSide" ">
-        
-	<div class="contactText">
-            <p style="padding-bottom: 30px; text-indent: 60px; color: #e6e6e6;">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
-        </div>
-
-      </div>
+      
     </div>
     
         <div class="socialFooterLinks"><ul class="footerSocial" >
