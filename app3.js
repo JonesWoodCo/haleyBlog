@@ -11,5 +11,6 @@ $(document).ready(function(){
     // Animation complete.
   //});
   $('.messageMe').toggle();
+  
   });
 });
