@@ -325,7 +325,7 @@ p{
   display: inline-block;
   /*float: left;*/
   /*height: 468px;*/
-  width: 48%;
+  width: 40%;
   /*margin-left: 80px;*/
   border: 0px;
   padding: 0px;
@@ -354,7 +354,7 @@ p{
 /*this is the message form*/
 .messageMe{ 
   display: inline-block;
-  width: 48%;
+  width: 40%;
   /*float: left;*/
   height: 411px;
   display: inline-block;

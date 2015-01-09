@@ -159,11 +159,11 @@ require_once("dbconnect.php");
             
             <div class="contactTextSide" ">
         
-	<div class="contactText">
+	<!--<div class="contactText">-->
             <p class="contactParagraph">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
         </div>
 
-      </div>
+      <!--</div>-->
             
             
             
