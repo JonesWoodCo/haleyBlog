@@ -341,7 +341,8 @@ p{
 .contactParagraph{
   padding-bottom: 30px;
   text-indent: 60px;
-  color: #e6e6e6;"
+  color: #e6e6e6;
+  font-size: 1.2em;
 }
 
 /*this is the message form*/
