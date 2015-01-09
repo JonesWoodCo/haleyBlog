@@ -114,7 +114,7 @@ require_once("dbconnect.php");
     
     
     <div class="haleyBlogHome">
-      <p><b style="font-size: 1.4em">Blogs</b></p>
+      <p><b style="font-size: 1.6em">Blogs</b></p>
       
         <?php
 	$sql = "select * from blogs limit 5";
