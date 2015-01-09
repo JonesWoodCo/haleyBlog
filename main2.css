@@ -328,6 +328,7 @@ p{
   padding: 0px;
 }
 .messageMe{
+  display: inline-block;
   width: 360px;
   float: left;
   height: 411px;
