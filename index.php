@@ -116,9 +116,6 @@ require_once("dbconnect.php");
     <div class="haleyBlogHome">
       <p style="font-size: 1.8em; text-indent: 60px;"> Blogs</p>
       
-      
-      
- 
         <?php
 	$sql = "select * from blogs limit 5";
 	    //echo("SQL: $sql");
@@ -137,39 +134,20 @@ require_once("dbconnect.php");
 	  }
 	?>
         
-	
-	
-    
-    
-    
-        
-        
-        
     </div>
     
     
     
     <a name="haleyContactHome"></a>
     <div class="haleyContactHome">
-        
-            
-            
-            
-            
-            
-            <div class="contactTextSide" ">
-        <p  class="contactTitle"> Contact me</p>
-	<!--<div class="contactText">-->
-            <p class="contactParagraph">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
-        </div>
-
-      <!--</div>-->
-            
-            
-            
-            
+            <div class="contactTextSide" ">    
+                <p  class="contactTitle"> Contact me</p>
+                <!--<div class="contactText">-->
+                <p class="contactParagraph">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
+                <!--</div>-->
+            </div>
             <div class="messageMe">
-                <!-- Do not change the code! -->
+                <!-- Do not change the code! 
                 <a id="foxyform_embed_link_621050" href="http://www.foxyform.com/"></a>
                 <script type="text/javascript">
                     (function(d, t){
@@ -178,12 +156,9 @@ require_once("dbconnect.php");
                         g.src = "http://www.foxyform.com/js.php?id=621050&sec_hash=dcc36268ac1&width=350px";
                          s.parentNode.insertBefore(g, s);
                     }(document, "script"));
-                </script>
+                </script>-->
                 <!-- Do not change the code! -->
             </div>
-      
-      
-      
     </div>
     
         <div class="socialFooterLinks"><ul class="footerSocial" >
