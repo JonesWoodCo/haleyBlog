@@ -144,7 +144,7 @@ require_once("dbconnect.php");
                 <p style="font-size: 1.8em; text-indent: 60px;"> Contact Me</p>
                 
                 <p class="contactParagraph">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!<br /></p>
-                <a href="#"><img class="messageDrop" src="messageDrop.png"></a>
+                <a><img class="messageDrop" src="messageDrop.png"></a>
                 
             </div>
         </div>
