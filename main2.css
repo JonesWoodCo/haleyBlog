@@ -320,7 +320,7 @@ p{
 }
 .contactTextSide{
   display: inline-block;
-  float: left;
+  /*float: left;*/
   height: 468px;
   width: 500px;
   margin-left: 80px;
@@ -330,7 +330,7 @@ p{
 .messageMe{
   display: inline-block;
   width: 360px;
-  float: left;
+  /*float: left;*/
   height: 411px;
   display: inline-block;
 }
