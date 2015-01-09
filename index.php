@@ -146,8 +146,8 @@ require_once("dbconnect.php");
                 <p class="contactParagraph">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
                 <!--</div>-->
             </div>
-            <div class="messageMe">
-                <!-- Do not change the code! 
+            <!--<div class="messageMe">
+                 
                 <a id="foxyform_embed_link_621050" href="http://www.foxyform.com/"></a>
                 <script type="text/javascript">
                     (function(d, t){
@@ -156,9 +156,9 @@ require_once("dbconnect.php");
                         g.src = "http://www.foxyform.com/js.php?id=621050&sec_hash=dcc36268ac1&width=350px";
                          s.parentNode.insertBefore(g, s);
                     }(document, "script"));
-                </script>-->
-                <!-- Do not change the code! -->
-            </div>
+                </script>
+                
+            </div> -->
     </div>
     
         <div class="socialFooterLinks"><ul class="footerSocial" >
