@@ -9,6 +9,9 @@ $(document).ready(function(){
   $('.messageDrop').click(function() {
     $('.messageMe').slideDown( "slow", function() {
     // Animation complete.
+         $('.messageDrop').click(function() {
+                  $('.messageMe').slideDown( "slow", function() {
+                           });
   });
   //$('.messageMe').toggle();
   });
