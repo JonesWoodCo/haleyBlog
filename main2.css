@@ -317,13 +317,14 @@ p{
   padding-bottom: 70px;
   width: 100%;
   height: 550px;
+  display: inline-block;
 }
 .contactTextSide{
   display: inline-block;
   /*float: left;*/
   height: 468px;
   width: 500px;
-  margin-left: 80px;
+  /*margin-left: 80px;*/
   border: 0px;
   padding: 0px;
 }
