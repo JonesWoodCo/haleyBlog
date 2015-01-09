@@ -318,11 +318,13 @@ p{
   width: 100%;
   display: inline-block;
   
+  
 }
 /*the div housing the paragraph and title */
 .contactTextSide{
   display: inline-block;
   width: 40%;
+  height: 350px;
   border: 0px;
   padding: 0px;
   margin-right: auto;
@@ -345,7 +347,7 @@ p{
   padding-bottom: 0px;
   text-indent: 60px;
   color: #e6e6e6;
-  font-size: 1.2em;
+  font-size: 16px;
   padding-bottom: 45px;
 }
 
