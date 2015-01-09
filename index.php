@@ -164,7 +164,7 @@ require_once("dbconnect.php");
     
     
         <div class="socialFooterLinks"><ul class="footerSocial" >
-								<li>Social Media:</li>
+							      
 								<li><a href="https://twitter.com/_hhalverson" class="footerTwitter" ><img src="twitterFooter.png"></a></li>
 								<li>|</li>
 								<li><a href="https://www.linkedin.com/in/haleyhalverson" class="footerLinkedIn"><img src="linkedInFooter.png"></a></li>												
