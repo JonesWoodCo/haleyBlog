@@ -7,11 +7,9 @@ $(document).ready(function(){
     $('.login').toggle();
   });
   $('.messageDrop').click(function() {
-    $('.messageMe').slideDown( "slow", function() {
+    $('.messageMe').toggle( "slow", function() {
     // Animation complete.
-         $('.messageDrop').click(function() {
-                  $('.messageMe').slideDown( "slow", function() {
-                           });
+         
   });
   //$('.messageMe').toggle();
   });
