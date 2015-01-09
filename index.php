@@ -158,7 +158,7 @@ require_once("dbconnect.php");
             
             
             <div class="contactTextSide" ">
-        <p  class="contactTitle"> Contact me</p>
+        <p  class="contactTitle"><img src="mailFooter.png"></p>
 	<!--<div class="contactText">-->
             <p class="contactParagraph">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!</p>
         </div>
