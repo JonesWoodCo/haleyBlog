@@ -33,9 +33,9 @@ $(document).ready(function(){
   
   
   //utilizing the .scrollto function to move to parts of the page when clicking topNav links
-  $('.blogLink').click(function(){
-  $('.haleyBlogHome').ScrollTo();
-});
+  //$('.blogLink').click(function(){
+  //$('.haleyBlogHome').ScrollTo();
+//});
   
     $('.aboutLink').click(function(){
   $('.slider-nav').ScrollTo();
