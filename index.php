@@ -42,7 +42,7 @@ require_once("dbconnect.php");
 			      <li>|</li>
 			      <li><a href="#" class="aboutLink">ABOUT</a></li>							
 		    	      <li>|</li>							
-			      <li><a href="blog.php" class="blogLink">BLOG</a></li>							
+			      <li><a href="blog.php?ID=2" class="blogLink">BLOG</a></li>							
 			      <li>|</li>
 			      <li><a href="#" class="contactLink">CONTACT</a></li>						
 			    </ul>
