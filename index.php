@@ -32,11 +32,11 @@ require_once("dbconnect.php");
 	    </form>
       </div>
       			<div class="navbar-whole">
-			  <div class="logo-holder"> <!-- make this width 100% height: 50px; border: 0px; margin: auto;-->
+			  <div class="logo-holder"> 
 			    <div class="navbar-logo"><img class="logo" src="brandNameNavBar.png">
 			    </div>
 			  </div>	
-			  <div class="nav-links"> <!-- width: 100%, height: 20px; border: 0px; margin: atuo: text-align: center;-->
+			  <div class="nav-links"> 
 			    <ul class="nav-ul" style:"color: #ffffff;">
 			      <li><a href="index.php" class="homeLink" >HOME</a></li>
 			      <li>|</li>

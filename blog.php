@@ -24,16 +24,32 @@ $postid=$_GET['ID'];
 		
 		<div class="loginAppear"></div>
                 
-      <div class="login">
-	    <p style="color: #ffffff;">ADMIN LOGIN</p>
-	    <form action="auth.php" method="post">
-		  <p style="color: #ffffff;">Username:</p> <input type="text" name="name">
-		 <p style="color: #ffffff;"> Password:</p>  <input type="password" name="password"><br><br>
-		  <input class="loginButton" type="submit" value="Login">
-	    </form>
-      </div>
-      
-			<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="login">
+			<p style="color: #ffffff;">ADMIN LOGIN</p>
+			<form action="auth.php" method="post">
+				<p style="color: #ffffff;">Username:</p> <input type="text" name="name">
+				<p style="color: #ffffff;"> Password:</p>  <input type="password" name="password"><br><br>
+				<input class="loginButton" type="submit" value="Login">
+			</form>
+		</div>
+		<div class="navbar-whole">
+			<div class="logo-holder"> 
+				<div class="navbar-logo"><img class="logo" src="brandNameNavBar.png">
+				</div>
+			</div>	
+			<div class="nav-links"> 
+				<ul class="nav-ul" style:"color: #ffffff;">
+					<li><a href="index.php" class="homeLink" >HOME</a></li>
+					 <li>|</li>
+					<li><a href="index.php#haleyAboutHome" class="aboutLink">ABOUT</a></li>							
+					<li>|</li>							
+					<li><a href="#" class="blogLink">BLOG</a></li>							
+					<li>|</li>
+					<li><a href="index.php#haleyContactHome" class="contactLink">CONTACT</a></li>						
+				</ul>
+			</div>	
+		</div>
+			<!--<div class="navbar navbar-inverse navbar-fixed-top">
 					<div class="container haleycontainer">
 						<div class="navbar-header">
 							<div class="navbar-brand logo"><img src="brandNameNavBar.png"></div>
@@ -51,7 +67,7 @@ $postid=$_GET['ID'];
 						</div>
 					</div>
 				</div>
-					
+					-->
 		<?php
 	$sql = "select * from blogs where ID=$postid";
 	    echo("SQL: $sql");
