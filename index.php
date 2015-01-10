@@ -31,24 +31,24 @@ require_once("dbconnect.php");
 		  <input class="loginButton" type="submit" value="Login">
 	    </form>
       </div>
-      			<div class="navbar navbar-inverse navbar-fixed-top">
-					<div class="container haleycontainer">
-						<div class="navbar-header">
-							<div class="navbar-brand logo"><img src="brandNameNavBar.png"></div>
-						</div>
-						<div class="navbar-collapse collapse" id="haleycontainer">
-							<ul class="nav navbar-nav" style:"color: #ffffff;">
-								<li><a href="index.php" class="homeLink" >HOME</a></li>
-								<li><a>|</a></li>
-								<li><a href="#" class="aboutLink">ABOUT</a></li>							
-		    						<li><a>|</a></li>							
-								<li><a href="#" class="blogLink">BLOG</a></li>							
-								<li><a>|</a></li>
-								<li><a href="#" class="contactLink">CONTACT</a></li>						
-							</ul>
-						</div>
-					</div>
-				</div>
+      			<div class="navbar-whole">
+			  <div class="logo-holder"> <!-- make this width 100% height: 50px; border: 0px; margin: auto;-->
+			    <div class="navbar-logo"><img class="logo" src="brandNameNavBar.png">
+			    </div>
+			  </div>	
+			  <div class="nav-links"> <!-- width: 100%, height: 20px; border: 0px; margin: atuo: text-align: center;-->
+			    <ul class="nav-ul" style:"color: #ffffff;">
+			      <li><a href="index.php" class="homeLink" >HOME</a></li>
+			      <li>|</li>
+			      <li><a href="#" class="aboutLink">ABOUT</a></li>							
+		    	      <li>|</li>							
+			      <li><a href="blog.php" class="blogLink">BLOG</a></li>							
+			      <li>|</li>
+			      <li><a href="#" class="contactLink">CONTACT</a></li>						
+			    </ul>
+			  </div>	
+			</div>
+			
     <div class="slider">
       <div class="slide active-slide">
         <div class="container">
