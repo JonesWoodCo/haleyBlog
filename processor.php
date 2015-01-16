@@ -4,6 +4,6 @@ $sender=$_POST['email'];
 $subject=$_POST['subject'];
 $message=$_POST['message'];
 
-$email="Name: " . $name . "\n" . "Email: " . $sender . "\n" . "Subject: " . $subject . "\n" . "Message: " . $message;
+$email="Name: " . $name . "\n". "\n" . "Email: " . $sender . "\n". "\n" . "Subject: " . $subject . "\n". "\n" . "Message: " . $message;
 mail("cjones@sycamoreleaf.com", $subject, $email);
 ?>
