@@ -61,6 +61,7 @@ if(isset($_POST) && !empty($_POST) ){
 			    </ul>
 			  </div>	
 			</div>
+                        
 			
     <div class="slider">
       <div class="slide active-slide">
