@@ -1,9 +1,9 @@
 <?php
 $name=$_POST['name'];
-$email=$_POST['email'];
+$sender=$_POST['email'];
 $subject=$_POST['subject'];
 $message=$_POST['message'];
 
-$email=$name . "\n" . $message;
+$email=$name . "\n" . $sender . "\n" . $message;
 mail("cjones@sycamoreleaf.com", $subject, $email);
 ?>
