@@ -8,16 +8,16 @@ $postid=$_GET['ID'];
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
-		<link href="main.css" rel="stylesheet" type="text/css"/>
-		<script type='text/javascript' src='jquery.js'></script>
-		<script type='text/javascript' src='jquery-ui.js'></script>
-		<script type='text/javascript' src='jquery-scrollto.js'></script>
-		 <script src="app2.js"></script>
-		  <script src="app3.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		<link href="css/main.css" rel="stylesheet" type="text/css"/>
+		<script type='js/text/javascript' src='jquery.js'></script>
+		<script type='js/text/javascript' src='jquery-ui.js'></script>
+		<script type='js/text/javascript' src='jquery-scrollto.js'></script>
+		 <script src="js/app2.js"></script>
+		  <script src="js/app3.js"></script>
 		<link rel="icon" 
 			type="image/png" 
-			href="haleyFavicon.png">
+			href="img/haleyFavicon.png">
 		<title>Haley Halverson</title>
 	</head>
 	<body>		 
@@ -34,7 +34,7 @@ $postid=$_GET['ID'];
 		</div>
 		<div class="navbar-whole">
 			<div class="logo-holder"> 
-				<div class="navbar-logo"><img class="logo" src="brandNameNavBar.png">
+				<div class="navbar-logo"><img class="logo" src="img/brandNameNavBar.png">
 				</div>
 			</div>	
 			<div class="nav-links"> 
@@ -49,25 +49,7 @@ $postid=$_GET['ID'];
 				</ul>
 			</div>	
 		</div>
-			<!--<div class="navbar navbar-inverse navbar-fixed-top">
-					<div class="container haleycontainer">
-						<div class="navbar-header">
-							<div class="navbar-brand logo"><img src="brandNameNavBar.png"></div>
-						</div>
-						<div class="navbar-collapse collapse" id="haleycontainer">
-							<ul class="nav navbar-nav" style:"color: #ffffff;">
-								<li><a href="index.php" class="homeLink" >HOME</a></li>
-								<li><a>|</a></li>
-								<li><a href="index.php#haleyAboutHome" class="aboutLink">ABOUT</a></li>							
-		    						<li><a>|</a></li>
-								<li><a href="blog.php" class="blogLink">BLOG</a></li>														
-								<li><a>|</a></li>
-								<li><a href="index.php#haleyContactHome" class="contactLink">CONTACT</a></li>						
-							</ul>
-						</div>
-					</div>
-				</div>
-					-->
+			
 		<?php
 	$sql = "select * from blogs where ID=$postid";
 	    echo("SQL: $sql");
@@ -132,9 +114,9 @@ $postid=$_GET['ID'];
 				</div>
 			</div>		
 			<div class="socialFooterLinks"><ul class="footerSocial" >
-								<li><a href="https://twitter.com/_hhalverson" class="footerTwitter" ><img src="twitterFooter.png"></a></li>
+								<li><a href="https://twitter.com/_hhalverson" class="footerTwitter" ><img src="img/twitterFooter.png"></a></li>
 								<li>|</li>
-								<li><a href="https://www.linkedin.com/in/haleyhalverson" class="footerLinkedIn"><img src="linkedInFooter.png"></a></li>												
+								<li><a href="https://www.linkedin.com/in/haleyhalverson" class="footerLinkedIn"><img src="img/linkedInFooter.png"></a></li>												
 							</ul></div>
 		<div class="copyright"><p>Copyright Haley Halverson All Rights Reserved. Website design by <a href="http://topherjonesy.github.io/Toaf/">Mandrake.</a></p></div>
 	</body>

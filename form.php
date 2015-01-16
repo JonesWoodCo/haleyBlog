@@ -15,16 +15,16 @@ require_once("dbconnect.php");
   <head>
     <meta charset="UTF-8">
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic' rel='stylesheet' type='text/css'><!--for the droid serif font-->
-    <link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <script type='text/javascript' src='jquery.js'></script>
-    <script type='text/javascript' src='jquery-ui.js'></script>
-    <script type='text/javascript' src='jquery-scrollto.js'></script>
-    <link href="main.css" rel="stylesheet" type="text/css"/>
-    <link href="main2.css" rel="stylesheet" type="text/css"/>
-    <link href="formcss.css" rel="stylesheet" type="text/css"/>
-    <script src="app.js"></script>
-    <script src="app2.js"></script>
-    <link rel="icon" type="image/png" href="haleyFavicon.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/jquery-ui.js'></script>
+    <script type='text/javascript' src='js/jquery-scrollto.js'></script>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="css/main2.css" rel="stylesheet" type="text/css"/>
+    <link href="css/formcss.css" rel="stylesheet" type="text/css"/>
+    <script src="js/app.js"></script>
+    <script src="js/app2.js"></script>
+    <link rel="icon" type="image/png" href="img/haleyFavicon.png">
   </head>
   
   
@@ -33,7 +33,7 @@ require_once("dbconnect.php");
 	    <div class="container haleycontainer">
 		<div class="navbar-header">
 		    <div class="navbar-brand logo">
-                        <img src="brandNameNavBar.jpg">
+                        <img src="img/brandNameNavBar.jpg">
                     </div>
 		</div>
 		<div class="navbar-collapse collapse" id="haleycontainer">

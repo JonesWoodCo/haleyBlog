@@ -20,16 +20,16 @@ if(isset($_POST) && !empty($_POST) ){
   <head>
     <meta charset="UTF-8">
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic' rel='stylesheet' type='text/css'><!--for the droid serif font-->
-    <link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <script type='text/javascript' src='jquery.js'></script>
-    <script type='text/javascript' src='jquery-ui.js'></script>
-    <script type='text/javascript' src='jquery-scrollto.js'></script>
-    <link href="main.css" rel="stylesheet" type="text/css"/>
-    <link href="main2.css" rel="stylesheet" type="text/css"/>	
-    <script src="app.js"></script>
-    <script src="app2.js"></script>
-    <script src="app3.js"></script>
-    <link rel="icon" type="image/png" href="haleyFavicon.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/jquery-ui.js'></script>
+    <script type='text/javascript' src='js/jquery-scrollto.js'></script>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="css/main2.css" rel="stylesheet" type="text/css"/>	
+    <script src="js/app.js"></script>
+    <script src="js/app2.js"></script>
+    <script src="js/app3.js"></script>
+    <link rel="icon" type="image/png" href="img/haleyFavicon.png">
   </head>
   <body>
     
@@ -46,7 +46,7 @@ if(isset($_POST) && !empty($_POST) ){
       </div>
       			<div class="navbar-whole">
 			  <div class="logo-holder"> 
-			    <div class="navbar-logo"><img class="logo" src="brandNameNavBar.png">
+			    <div class="navbar-logo"><img class="logo" src="img/brandNameNavBar.png">
 			    </div>
 			  </div>	
 			  <div class="nav-links"> 
@@ -68,11 +68,11 @@ if(isset($_POST) && !empty($_POST) ){
           <div class="row">
             <div class="slide-copy col-xs-5 slide-1">
               <h2 style="margin-top: 110px;"><strong>Connect </strong>with me</h2>
-	      <h2>on <a class="lISlideLink" href="https://www.linkedin.com/in/haleyhalverson"><img src="slide1LI.png"></a></h2>
+	      <h2>on <a class="lISlideLink" href="https://www.linkedin.com/in/haleyhalverson"><img src="img/slide1LI.png"></a></h2>
               <h2>to stay updated </h2>
 	      <h2>in my professional </h2>
 	      <h2>network.</h2>
-	      <div class="trp">photo courtesy of:<a href="https://www.facebook.com/TR.fotowerks"><img src="tRPhotoLogo.png"></a></div>
+	      <div class="trp">photo courtesy of:<a href="https://www.facebook.com/TR.fotowerks"><img src="img/tRPhotoLogo.png"></a></div>
             </div>            
           </div>
         </div>      
@@ -84,7 +84,7 @@ if(isset($_POST) && !empty($_POST) ){
         <div class="container">
           <div class="row">
             <div class="slide-copy col-xs-12 slide-2">
-              <img style="top: 100px; left: 100px; height: 350px; position: absolute;" class="happyHolidays" src="haleyHappyHoliday.png">
+              <img style="top: 100px; left: 100px; height: 350px; position: absolute;" class="happyHolidays" src="img/haleyHappyHoliday.png">
             </div>            
           </div>
         </div>      
@@ -97,23 +97,23 @@ if(isset($_POST) && !empty($_POST) ){
             <div class="slide-copy col-xs-5 slide-3">
               
               <h2 style="margin-top: 210px;"><strong>Follow </strong>me on</h2>
-	      <h2><a class="twitterSlideLink" href="https://twitter.com/_hhalverson"><img src="slide3Twitter.png"></a>.</h2>
+	      <h2><a class="twitterSlideLink" href="https://twitter.com/_hhalverson"><img src="img/slide3Twitter.png"></a>.</h2>
               
 	      
-	      <div class="trp">photo courtesy of:<a class="twitterSlideLink" href="https://www.facebook.com/TR.fotowerks"><img src="tRPhotoLogo.png"></a></div>
+	      <div class="trp">photo courtesy of:<a class="twitterSlideLink" href="https://www.facebook.com/TR.fotowerks"><img src="img/tRPhotoLogo.png"></a></div>
             </div>            
           </div>
         </div>      
       </div>       
     </div>
     <div class="slider-nav">
-      <a href="#" class="arrow-prev"><img src="arrow-prev.png"></a>
+      <a href="#" class="arrow-prev"><img src="img/arrow-prev.png"></a>
       <ul class="slider-dots">
         <li class="dot active-dot">&bull;</li>
         <li class="dot">&bull;</li>
         <li class="dot">&bull;</li>        
       </ul>
-      <a href="#" class="arrow-next"><img src="arrow-next.png"></a>
+      <a href="#" class="arrow-next"><img src="img/arrow-next.png"></a>
     </div>
     
     
@@ -157,7 +157,7 @@ if(isset($_POST) && !empty($_POST) ){
                 <p><b style="font-size: 1.4em">Contact Me</b></p>
                 
                 <p class="contactParagraph">If you would like to have me write about a specific topic or have a question/ comment about something that I have written, you can send them to me via this form!<br /></p>
-                <a><img class="messageDrop" src="messageDrop.png"></a>
+                <a><img class="messageDrop" src="img/messageDrop.png"></a>
                 
             </div>
         </div>
@@ -197,9 +197,9 @@ if(isset($_POST) && !empty($_POST) ){
     
         <div class="socialFooterLinks"><ul class="footerSocial" >
 							      
-								<li><a href="https://twitter.com/_hhalverson" class="footerTwitter" ><img src="twitterFooter.png"></a></li>
+								<li><a href="https://twitter.com/_hhalverson" class="footerTwitter" ><img src="img/twitterFooter.png"></a></li>
 								<li>|</li>
-								<li><a href="https://www.linkedin.com/in/haleyhalverson" class="footerLinkedIn"><img src="linkedInFooter.png"></a></li>												
+								<li><a href="https://www.linkedin.com/in/haleyhalverson" class="footerLinkedIn"><img src="img/linkedInFooter.png"></a></li>												
 							</ul></div>
 	<div class="copyright"><p>Copyright Haley Halverson All Rights Reserved. Website design by <a href="http://topherjonesy.github.io/Toaf/">Mandrake.</p></a></div>
   </body>
