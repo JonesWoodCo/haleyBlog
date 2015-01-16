@@ -148,18 +148,37 @@ require_once("dbconnect.php");
                 
             </div>
         </div>
-            <div class="messageMe">
-                 
-                <a id="foxyform_embed_link_621050" href="http://www.foxyform.com/"></a>
-                <script type="text/javascript">
-                    (function(d, t){
-                         var g = d.createElement(t),
-                         s = d.getElementsByTagName(t)[0];
-                        g.src = "http://www.foxyform.com/js.php?id=621050&sec_hash=dcc36268ac1&width=350px";
-                         s.parentNode.insertBefore(g, s);
-                    }(document, "script"));
-                </script>
-                
+    
+    
+    
+           <div class="messageMe">
+                 <div class="messageBody">
+                    
+							<div class="container">
+								
+								<form method="post" action="#">
+									<div class="row uniform">
+										<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+									</div>
+									<div class="row uniform">
+										<div class="12u"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+									</div>
+									<div class="row uniform">
+										<div class="12u"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+									</div>
+									<div class="row uniform">
+										<div class="12u">
+											<ul style=" list-style: none;" class="actions">
+												<li><input style="display: inline; width: 150px; border: 0px;" type="submit" class="sendMessage" value="Send Message" /></li>
+												
+												
+											</ul>
+										</div>
+									</div>
+								</form>
+							</div>
+                 </div>
             </div>
     
     
