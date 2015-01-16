@@ -90,7 +90,7 @@ p{
   margin-left: 231px;
 }
 .slide-1{
-  background-image: url('img/TRPHaley1.jpg');
+  background-image: url('TRPHaley1.jpg');
   background-position: center right;
   background-size: cover;
   position: absolute;
@@ -118,7 +118,7 @@ p{
 
 
 .slide-2{
-  background-image: url("img/haleyHoliday1.jpg");
+  background-image: url('haleyHoliday1.jpg');
   background-position: center right;
   background-size: cover;
   position: absolute;
@@ -128,7 +128,7 @@ p{
   height: 100%;
 }
 .slide-3{
-  background-image: url('img/TRPHaley2.jpg');
+  background-image: url('TRPHaley2.jpg');
   background-position: center right;
   background-size: cover;
   position: absolute;
