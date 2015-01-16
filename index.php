@@ -25,7 +25,7 @@ if(isset($_POST) && !empty($_POST) ){
     <script type='text/javascript' src='js/jquery-ui.js'></script>
     <script type='text/javascript' src='js/jquery-scrollto.js'></script>
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
-    <link href="css/main2.css" rel="stylesheet" type="text/css"/>	
+    <link href="css/main2.css" rel="stylesheet" type="text/css"/>
     <script src="js/app.js"></script>
     <script src="js/app2.js"></script>
     <script src="js/app3.js"></script>
