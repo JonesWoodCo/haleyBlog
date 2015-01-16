@@ -1,5 +1,17 @@
 <?php
 require_once("dbconnect.php");
+
+
+if(isset($_POST)){
+	//an email must be sent
+
+	$name=$_POST['name'];
+        $sender=$_POST['email'];
+        $subject=$_POST['subject'];
+        $message=$_POST['message'];
+
+        $email="Name: " . $name . "\n". "\n" . "Email: " . $sender . "\n". "\n" . "Subject: " . $subject . "\n". "\n" . "Message: " . $message;
+        mail("cjones@sycamoreleaf.com", $subject, $email);
 ?>
 
 <!doctype html>
@@ -156,7 +168,7 @@ require_once("dbconnect.php");
                     
 							<div class="container">
 								
-								<form method="post" action="processor.php">
+								<form method="post" action="index.php">
 									<div class="row uniform">
 										<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
 										<div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
