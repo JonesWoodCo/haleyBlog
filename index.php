@@ -2,7 +2,7 @@
 require_once("dbconnect.php");
 
 
-if(isset($_POST)){
+if(isset($_POST) && !empty($_POST) ){
 	//an email must be sent
 
 	$name=$_POST['name'];
