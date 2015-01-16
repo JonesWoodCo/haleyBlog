@@ -10,7 +10,7 @@ if(isset($_POST)){
         $subject=$_POST['subject'];
         $message=$_POST['message'];
 
-        $email="<strong>Name:</strong> " . $name . "\n". "\n" . "Email: " . $sender . "\n". "\n" . "Subject: " . $subject . "\n". "\n" . "Message: " . $message;
+        $email="Name: " . $name . "\n". "\n" . "Email: " . $sender . "\n". "\n" . "Subject: " . $subject . "\n". "\n" . "Message: " . $message;
         mail("cjones@sycamoreleaf.com", $subject, $email);
 }
 ?>
