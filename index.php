@@ -156,7 +156,7 @@ require_once("dbconnect.php");
                     
 							<div class="container">
 								
-								<form method="post" action="#">
+								<form method="post" action="processor.php">
 									<div class="row uniform">
 										<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
 										<div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
