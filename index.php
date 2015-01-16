@@ -11,7 +11,7 @@ if(isset($_POST) && !empty($_POST) ){
         $message=$_POST['message'];
 
         $email="Name: " . $name . "\n". "\n" . "Email: " . $sender . "\n". "\n" . "Subject: " . $subject . "\n". "\n" . "Message: " . $message;
-        mail("cjones@sycamoreleaf.com", $subject, $email);
+        mail("haley.halverson@aol.com", $subject, $email);
 }
 ?>
 
