@@ -159,10 +159,11 @@ input[type="submit"] {
 /*////////////////////////////////////////////////////////////////////////////////
  //////////////////  blog.php - content section  //////////////////
  ///////////////////////////////////////////////////////////////////////////////*/
+ 
 .content{
 border: 0px;
 margin-left: 0px;
-margin-top: 10px;
+margin-top: 50px;
 margin-right: 0px;
 margin-bottom: 5px;
 padding: 0px;
@@ -174,11 +175,11 @@ background-color: white;
 
 .mainArticleSpace {
 margin-left: 0px;
-padding-left: 70px;
+padding-left: 45px;
 padding-right: 45px;
-padding-top: 25px;
+padding-top: 15px;
 padding-bottom: 45px;
-width: 60%;
+width: 75%;
 background-color: #ffffff;
 float: left;
 font-family: 'Droid Serif', serif;
@@ -188,11 +189,8 @@ top: 0px;
     font-weight: bold;
 }
 .blogSideMenu{
-padding-left: 25px;
-padding-right: 25px;
-padding-bottom: 5px;
-padding-top: 50px;
-margin-right: 231px; 
+padding: 25px;
+margin-right: 0px; 
 float: left;
 background-color: #d7ebff;
 max-width: 210px;
