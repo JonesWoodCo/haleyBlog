@@ -131,7 +131,7 @@ if(isset($_POST) && !empty($_POST) ){
       <p><b style="font-size: 1.6em">Blogs</b></p>
       
         <?php
-	$sql = "select * from blogs limit 5";
+	$sql = "select * from blogs limit 10";
 	    //echo("SQL: $sql");
 	 $rs = mysql_query($sql);
 	  if($rs) $rsc = mysql_num_rows($rs);
