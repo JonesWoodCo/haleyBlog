@@ -74,7 +74,7 @@ $postid=$_GET['ID'];
                         </div>
                         <?php
                             $sql = "select * from blogs where ID=$postid";
-                                echo("SQL: $sql");
+                                //echo("SQL: $sql");
                              $rs = mysql_query($sql);
                               if($rs) $rsc = mysql_num_rows($rs);
                               for($i=0; $i < $rsc; $i++){
