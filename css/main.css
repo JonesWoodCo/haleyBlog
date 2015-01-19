@@ -156,54 +156,6 @@ input[type="submit"] {
     padding: 30px;
 }
 
-/*////////////////////////////////////////////////////////////////////////////////
- //////////////////  blog.php - content section  //////////////////
- ///////////////////////////////////////////////////////////////////////////////*/
- /*
-.content{
-border: 0px;
-margin-left: 0px;
-margin-top: 50px;
-margin-right: 0px;
-margin-bottom: 5px;
-padding: 0px;
-width: 100%;
-top: 0px;
-background-color: white;
-}
-
-
-.mainArticleSpace {
-margin-left: 0px;
-padding-left: 45px;
-padding-right: 45px;
-padding-top: 15px;
-padding-bottom: 45px;
-width: 75%;
-background-color: #ffffff;
-float: left;
-font-family: 'Droid Serif', serif;
-top: 0px;
-}
-.mainArticleSpace>h1{
-    font-weight: bold;
-}
-.blogSideMenu{
-padding: 25px;
-margin-right: 0px; 
-float: left;
-background-color: #d7ebff;
-max-width: 210px;
-}
-.articles{
-    height: 150px;
-    width: 150px;
-    margin: 0px;
-    padding: 0px;
-}
-
-
-*/
  
  /*/////////////////////////////////////////////////////////////////////////////////////
  ///////////////////////////   blog section   //////////////////////////////////
