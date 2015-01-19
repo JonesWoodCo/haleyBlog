@@ -32,7 +32,7 @@ $postid=$_GET['ID'];
 				<input class="loginButton" type="submit" value="Login">
 			</form>
 		</div>
-		<div class="navbar-whole">
+		<!--<div class="navbar-whole">
 			<div class="logo-holder"> 
 				<div class="navbar-logo"><img class="logo" src="img/brandNameNavBar.png">
 				</div>
@@ -48,7 +48,7 @@ $postid=$_GET['ID'];
 					<li><a href="index.php#haleyContactHome" class="contactLink">CONTACT</a></li>						
 				</ul>
 			</div>	
-		</div>
+		</div>-->
 			
                         
                          <div class="haleyBlogBlog">
