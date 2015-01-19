@@ -53,26 +53,29 @@ $postid=$_GET['ID'];
                         
                          <div class="haleyBlogBlog">
       
-        <?php
-	$sql = "select * from blogs limit 5";
-	    //echo("SQL: $sql");
-	 $rs = mysql_query($sql);
-	  if($rs) $rsc = mysql_num_rows($rs);
-	  for($i=0; $i < $rsc; $i++){
-	    $photo = mysql_result($rs, $i, "Photo");
-	     $postid = mysql_result($rs, $i, "ID");
-	    $hover = mysql_result($rs, $i, "Hover");
-	    //echo "Column1 is $photo and column 2 is $hover";
-	    echo "<div class='blogTile'>
-			  <div class='blogbackground' style='height: 150px;. width: 150px; background-image: url( $photo);'>
-			      <a href='blog.php?ID=$postid'><img class='hideMe1' src=' $hover ' style='background-image: url( $photo); height: 150px; width: 150px;'></a>
-			  </div>
-		      </div>"	  ;
-	  }
-	?>
-        
-    </div>
-                        
+                            <?php
+                                $sql = "select * from blogs limit 5";
+                                    //echo("SQL: $sql");
+                                 $rs = mysql_query($sql);
+                                    if($rs) $rsc = mysql_num_rows($rs);
+                                        for($i=0; $i < $rsc; $i++){
+                                            $photo = mysql_result($rs, $i, "Photo");
+                                            $postid = mysql_result($rs, $i, "ID");
+                                            $hover = mysql_result($rs, $i, "Hover");
+                                            //echo "Column1 is $photo and column 2 is $hover";
+                                          echo "<div class='blogTile'>
+                                                        <div class='blogbackground' style='height: 150px;. width: 150px; background-image: url( $photo);'>
+                                                            <a href='blog.php?ID=$postid'><img class='hideMe1' src=' $hover ' style='background-image: url( $photo); height: 150px; width: 150px;'></a>
+                                                        </div>
+                                                    </div>"	  ;
+                                        }
+                            ?>
+                            
+                        </div>
+    
+    <div class="haleyContentBlog">
+      <p style="padding-top: 30px; padding-bottom: 70px; text-indent: 60px;"><b style="font-size: 1.4em">Haley Halverson</b> was born in 1993 in Fremont, Nebraska. Haley was homeschooled from K-12 and currently attends Hillsdale College in Hillsdale, Michigan. During her college career she did coursework at Oxford University, in Oxford, England, interned in Indianapolis, IN, at <a href="http://www.libertyfund.org/">Liberty Fund</a> and in Washington D.C. at the <a href="http://www.heritage.org/">Heritage Foundation</a> and <a href="http://www.frc.org/">Family Research Council</a>. She is also a member of <a href="https://www.kappakappagamma.org/kappa/">Kappa Kappa Gamma</a> sorority. Haley will graduate in spring of 2015 with a double major in Christian Studies and Politics. </p>
+    </div>   
                         
                         
                         
