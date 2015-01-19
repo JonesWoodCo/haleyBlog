@@ -89,7 +89,7 @@ $postid=$_GET['ID'];
                               }
                             ?>  
                             <div class="haleyContentBlog">
-                              <h1><?php echo $title?></h1> 
+                              <h1> <b style="font-size: 1.4em"><?php echo $title?></b></h1>
 					<h5><i><?php echo $created?></i></h5>
 					<h6>By Haley Halverson. Published by <?php echo $publisher ?></h6>
 					<img style="width: 100%; " src="<?php echo $articlephoto?>">
