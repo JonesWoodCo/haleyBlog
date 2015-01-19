@@ -72,10 +72,29 @@ $postid=$_GET['ID'];
                             ?>
                             
                         </div>
-    
-    <div class="haleyContentBlog">
-      <p style="padding-top: 30px; padding-bottom: 70px; text-indent: 60px;"><b style="font-size: 1.4em">Haley Halverson</b> was born in 1993 in Fremont, Nebraska. Haley was homeschooled from K-12 and currently attends Hillsdale College in Hillsdale, Michigan. During her college career she did coursework at Oxford University, in Oxford, England, interned in Indianapolis, IN, at <a href="http://www.libertyfund.org/">Liberty Fund</a> and in Washington D.C. at the <a href="http://www.heritage.org/">Heritage Foundation</a> and <a href="http://www.frc.org/">Family Research Council</a>. She is also a member of <a href="https://www.kappakappagamma.org/kappa/">Kappa Kappa Gamma</a> sorority. Haley will graduate in spring of 2015 with a double major in Christian Studies and Politics. </p>
-    </div>   
+                        <?php
+                            $sql = "select * from blogs where ID=$postid";
+                                echo("SQL: $sql");
+                             $rs = mysql_query($sql);
+                              if($rs) $rsc = mysql_num_rows($rs);
+                              for($i=0; $i < $rsc; $i++){
+                                    $title = mysql_result($rs, $i, "Title");
+                                    $created = mysql_result($rs, $i, "Created");
+                                    $photo = mysql_result($rs, $i, "Photo");
+                                    $hover = mysql_result($rs, $i, "Hover");
+                                    $publisher = mysql_result($rs, $i, "Publisher");
+                                    $content = mysql_result($rs, $i, "Content");
+                                    $articlephoto = mysql_result($rs, $i, "Articlephoto");
+                                echo "Column1 is $photo and column 2 is $hover";
+                              }
+                            ?>  
+                            <div class="haleyContentBlog">
+                              <h1><?php echo $title?></h1> 
+					<h5><i><?php echo $created?></i></h5>
+					<h6>By Haley Halverson. Published by <?php echo $publisher ?></h6>
+					<img style="width: 100%; " src="<?php echo $articlephoto?>">
+					<p><?php echo $content ?></p>
+                            </div>   
                         
                         
                         
