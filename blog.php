@@ -66,15 +66,7 @@ $postid=$_GET['ID'];
 	    echo "Column1 is $photo and column 2 is $hover";
 	  }
 	?>
-		<div class="container">	
-			<div class="content">
-				<div class="mainArticleSpace ">
-					<h1><?php echo $title?></h1> 
-					<h5><i><?php echo $created?></i></h5>
-					<h6>By Haley Halverson. Published by <?php echo $publisher ?></h6>
-					<img style="width: 100%; " src="<?php echo $articlephoto?>">
-					<p><?php echo $content ?></p>			
-				</div>
+		
 				
 	<?php
 		$sql = "select * from blogs limit 10";
@@ -110,6 +102,15 @@ $postid=$_GET['ID'];
 					</div>";
 		}
 	?>
+                <div class="container">	
+			<div class="content">
+				<div class="mainArticleSpace ">
+					<h1><?php echo $title?></h1> 
+					<h5><i><?php echo $created?></i></h5>
+					<h6>By Haley Halverson. Published by <?php echo $publisher ?></h6>
+					<img style="width: 100%; " src="<?php echo $articlephoto?>">
+					<p><?php echo $content ?></p>			
+				</div>
 				
 				</div>
 			</div>		
