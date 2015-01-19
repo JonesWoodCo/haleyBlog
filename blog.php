@@ -1,7 +1,7 @@
 <?php
 require_once("dbconnect.php");
 $postid=$_GET['ID'];
-print $postid;
+
 ?>
 
 
