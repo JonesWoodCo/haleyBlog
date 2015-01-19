@@ -46,7 +46,7 @@ $postid=$_GET['ID'];
 					<li><a href="#" class="blogLink">BLOG</a></li>							
 					<li>|</li>
 					<li><a href="index.php#haleyContactHome" class="contactLink">CONTACT</a></li>						
-				</ul>f
+				</ul>
 			</div>	
 		</div>
 			
