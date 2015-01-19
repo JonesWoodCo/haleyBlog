@@ -137,12 +137,12 @@ if(isset($_POST) && !empty($_POST) ){
 	  if($rs) $rsc = mysql_num_rows($rs);
 	  for($i=0; $i < $rsc; $i++){
 	    $photo = mysql_result($rs, $i, "Photo");
-	     $postid = mysql_result($rs, $i, "ID");
+	     $id = mysql_result($rs, $i, "ID");
 	    $hover = mysql_result($rs, $i, "Hover");
 	    //echo "Column1 is $photo and column 2 is $hover";
 	    echo "<div class='homeProstitutionBlog'>
 			  <div class='blogbackground' style='height: 150px;. width: 150px; background-image: url( $photo);'>
-			      <a href='blog.php?ID=$postid'><img class='hideMe1' src=' $hover ' style='background-image: url( $photo); height: 150px; width: 150px;'></a>
+			      <a href='blog.php?ID=$id'><img class='hideMe1' src=' $hover ' style='background-image: url( $photo); height: 150px; width: 150px;'></a>
 			  </div>
 		      </div>"	  ;
 	  }
