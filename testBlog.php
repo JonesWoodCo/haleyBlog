@@ -46,7 +46,7 @@ $postid=$_GET['ID'];
 					<li><a href="#" class="blogLink">BLOG</a></li>							
 					<li>|</li>
 					<li><a href="index.php#haleyContactHome" class="contactLink">CONTACT</a></li>						
-				</ul>
+				</ul>f
 			</div>	
 		</div>
 			
@@ -85,7 +85,7 @@ $postid=$_GET['ID'];
                                     $publisher = mysql_result($rs, $i, "Publisher");
                                     $content = mysql_result($rs, $i, "Content");
                                     $articlephoto = mysql_result($rs, $i, "Articlephoto");
-                                echo "Column1 is $photo and column 2 is $hover";
+                                //echo "Column1 is $photo and column 2 is $hover";
                               }
                             ?>  
                             <div class="haleyContentBlog">
