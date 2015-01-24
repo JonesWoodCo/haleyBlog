@@ -202,6 +202,6 @@ if(isset($_POST) && !empty($_POST) ){
 								<li>|</li>
 								<li><a href="https://www.linkedin.com/in/haleyhalverson" class="footerLinkedIn"><img src="img/linkedInFooter.png"></a></li>												
 							</ul></div>
-	<div class="copyright"><p>Copyright Haley Halverson All Rights Reserved. Website design by <a href="http://topherjonesy.github.io/Toaf/">Mandrake.</p></a></div>
+	<div class="copyright"><p>Copyright Haley Halverson All Rights Reserved. Website design by <a href="http://www.mandrakedesign.com">Mandrake.</p></a></div>
   </body>
 </html>
