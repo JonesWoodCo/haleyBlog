@@ -203,5 +203,25 @@ if(isset($_POST) && !empty($_POST) ){
 								<li><a href="https://www.linkedin.com/in/haleyhalverson" class="footerLinkedIn"><img src="img/linkedInFooter.png"></a></li>												
 							</ul></div>
 	<div class="copyright"><p>Copyright Haley Halverson All Rights Reserved. Website design by <a href="http://www.mandrakedesign.com">Mandrake.</p></a></div>
+	
+	<!-- Start of StatCounter Code for Dreamweaver -->
+<script type="text/javascript">
+var sc_project=10316767; 
+var sc_invisible=1; 
+var sc_security="d9f93afb"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify
+analytics ecommerce" href="http://statcounter.com/shopify/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/10316767/0/d9f93afb/1/"
+alt="shopify analytics ecommerce"></a></div></noscript>
+<!-- End of StatCounter Code for Dreamweaver -->
+
+
   </body>
 </html>
