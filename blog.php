@@ -8,30 +8,18 @@ $postid=$_GET['ID'];
 <!DOCTYPE html>
 <html>
 	<head>
-		<!--meta tags-->
 		<meta charset="UTF-8">
-			
-		<!--styling-->
 		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 		<link href="css/testmain.css" rel="stylesheet" type="text/css"/>
-<<<<<<< Updated upstream
 		 <link rel="stylesheet" media="handheld, only screen and (max-device-width: 600px)" href="css/mobile.css">
-=======
-		
-		<!--Javascript-->
->>>>>>> Stashed changes
 		<script type='text/javascript' src='js/jquery.js'></script>
 		<script type='text/javascript' src='js/jquery-ui.js'></script>
 		<script type='text/javascript' src='js/jquery-scrollto.js'></script>
-		<script src="js/app2.js"></script>
-		<script src="js/app3.js"></script>
-		
-		<!--favicon-->
+		 <script src="js/app2.js"></script>
+		  <script src="js/app3.js"></script>
 		<link rel="icon" 
 			type="image/png" 
 			href="img/haleyFavicon.png">
-			
-		<!--title-->
 		<title>Haley Halverson</title>
 	</head>
 	<body>		 
