@@ -11,6 +11,7 @@ $postid=$_GET['ID'];
 		<meta charset="UTF-8">
 		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 		<link href="css/testmain.css" rel="stylesheet" type="text/css"/>
+		 <link rel="stylesheet" media="handheld, only screen and (max-device-width: 600px)" href="css/mobile.css">
 		<script type='text/javascript' src='js/jquery.js'></script>
 		<script type='text/javascript' src='js/jquery-ui.js'></script>
 		<script type='text/javascript' src='js/jquery-scrollto.js'></script>
