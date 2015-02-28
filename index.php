@@ -18,12 +18,18 @@ if(isset($_POST) && !empty($_POST) ){
 <!doctype html>
 <html>
   <head>
+    
+    <!--meta-->
     <meta charset="UTF-8">
+      
+    <!--Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic' rel='stylesheet' type='text/css'><!--for the droid serif font-->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    
+    <!--JS -->
     <script type='text/javascript' src='js/jquery.js'></script>
     <script type='text/javascript' src='js/jquery-ui.js'></script>
     <script type='text/javascript' src='js/jquery-scrollto.js'></script>
+<<<<<<< Updated upstream
     
     <!--css-->
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
@@ -34,9 +40,24 @@ if(isset($_POST) && !empty($_POST) ){
     <link rel="stylesheet" media="handheld, only screen and (max-device-width: 600px)" href="css/mobile2.css">
       
       <!--javascript-->
+=======
+>>>>>>> Stashed changes
     <script src="js/app.js"></script>
     <script src="js/app2.js"></script>
     <script src="js/app3.js"></script>
+    
+    <!--stylesheets-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="css/main2.css" rel="stylesheet" type="text/css"/>
+    
+    <!--Mobile/Tablet-->
+    <!--write css style sheets for mobile/tablet 
+    <link rel="stylesheet" media="handheld, only screen and (max-device-width: 600px)" href="styles/mobile.css">
+    <link rel="stylesheet" media="only screen and (min-width: 601px) and (max-width: 800px)" href="styles/tablet.css">
+	    
+	    -->
+    <!--favicon-->
     <link rel="icon" type="image/png" href="img/haleyFavicon.png">
   </head>
   <body>
