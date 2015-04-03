@@ -6,8 +6,7 @@
  ////////////////////////////  main body  ///////////////////////////////////
  /////////////////////////////////////////////////////////////////////////////////*/
 body{
-background-color: #e6e6e6;
-
+    background-color: #e6e6e6;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////
@@ -15,50 +14,39 @@ background-color: #e6e6e6;
  //////////////////////////////////////////////////////////////////////////////////*/
  
 a:link {
-color: #999999;
+    color: #999999;
 }
-
 a:visited {
-color: #999999;
+    color: #999999;
 }
-
 a:hover{
-color:#d7ebff;
-text-decoration: none;
+    color:#d7ebff;
+    text-decoration: none;
 }
-
 a:active {
-color: #808080;
+    color: #808080;
 }
-
 h1{
     font-family: 'Droid Serif', serif;
 }
-
 h3{
-     font-family: 'Droid Serif', serif;
+    font-family: 'Droid Serif', serif;
 }
-
 h4{
     font-family: 'Droid Serif', serif;
     margin-left: 231px;
     color: #ffffff;
 }
-
 h5{
-     font-family: 'Droid Serif', serif;
+    font-family: 'Droid Serif', serif;
 }
-
 h6{
     font-family: 'Droid Serif', serif;
 }
-
 p{
-     font-family: 'Droid Serif', serif;
-     font-size: 1.2em;
+    font-family: 'Droid Serif', serif;
+    font-size: 1.2em;
 }
-
-
 
 /*////////////////////////////////////////////////////////////////////////////
  //////////////    navbar stuff  && logo stuff   ////////////////
@@ -91,7 +79,6 @@ p{
  .logo{
     height: 45px;
     top: 0px;
-    
  }
  .nav-links{
     height: 25px;
@@ -132,7 +119,6 @@ input[type="submit"] {
     height: 30px; 
     border: 0;
 }
-
 .loginAppear{
     position: absolute;
     z-index: 1200;
@@ -149,61 +135,10 @@ input[type="submit"] {
     top: 300px;
     left: 600px;
     background-color: #1f1f1f;
-    /*height: 240px;
-    width: 230px;*/
     border: 0px;
     margin: 0px;
     padding: 30px;
 }
-
-/*////////////////////////////////////////////////////////////////////////////////
- //////////////////  blog.php - content section  //////////////////
- ///////////////////////////////////////////////////////////////////////////////*/
- /*
-.content{
-border: 0px;
-margin-left: 0px;
-margin-top: 50px;
-margin-right: 0px;
-margin-bottom: 5px;
-padding: 0px;
-width: 100%;
-top: 0px;
-background-color: white;
-}
-
-
-.mainArticleSpace {
-margin-left: 0px;
-padding-left: 45px;
-padding-right: 45px;
-padding-top: 15px;
-padding-bottom: 45px;
-width: 75%;
-background-color: #ffffff;
-float: left;
-font-family: 'Droid Serif', serif;
-top: 0px;
-}
-.mainArticleSpace>h1{
-    font-weight: bold;
-}
-.blogSideMenu{
-padding: 25px;
-margin-right: 0px; 
-float: left;
-background-color: #d7ebff;
-max-width: 210px;
-}
-.articles{
-    height: 150px;
-    width: 150px;
-    margin: 0px;
-    padding: 0px;
-}
-
-
-*/
  
  /*/////////////////////////////////////////////////////////////////////////////////////
  ///////////////////////////   blog section   //////////////////////////////////
@@ -249,30 +184,30 @@ max-width: 210px;
  //////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .copyright {
-clear: both;
-margin-top: 30px;
-margin-bottom: 30px;
-padding-top: 30px;
-border: 0px;
-padding: 0px;
-text-decoration: none;
-text-align: center;
-font-size: 0.6em;
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    border: 0px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.6em;
 
 }
 
 .socialFooterLinks{
-  clear: both;
+    clear: both;
     font-family: 'Droid Serif', serif;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 0px;
-  padding-top: 30px;
-  border: 0px;
-  padding: 0px;
-  text-decoration: none;
-  text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    border: 0px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .footerSocial{
